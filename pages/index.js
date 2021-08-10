@@ -1,16 +1,14 @@
 import Link from "next/link";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Home = () => {
-  //<script> Aos.init({})</script>;
-
-  <script>
-    window.onload = function ()
-    {useEffect(() => {
-      Aos.init({ duration: 3000 });
-    }, [])}
-  </script>;
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
+    });
+  }, []);
 
   return (
     <div className="App bg-custom-color-one ">
