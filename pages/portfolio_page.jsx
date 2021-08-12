@@ -40,7 +40,7 @@ const PortfolioPage = () => {
 
                 <a target="_blank" href="http://localhost:3000/">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                    <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                    <h2 class="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                       Classic Static
                     </h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
@@ -56,7 +56,11 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div class="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
+            <div
+              class="lg:w-1/3 sm:w-1/2 p-4"
+              data-aos="fade-down"
+              data-aos-anchor-placement="top-bottom"
+            >
               <div class="flex relative">
                 <img
                   alt="gallery"
@@ -65,7 +69,7 @@ const PortfolioPage = () => {
                 />
                 <a target="_blank" href="http://localhost:3000/">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                    <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                    <h2 class="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                       E-Commerce
                     </h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
@@ -81,7 +85,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div class="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-left">
+            <div class="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
               <div class="flex relative">
                 <img
                   alt="gallery"
@@ -90,7 +94,7 @@ const PortfolioPage = () => {
                 />
                 <a target="_blank" href="http://localhost:3000/">
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                    <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                    <h2 class="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                       Service Provider
                     </h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
@@ -106,7 +110,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div class="lg:w-1/3 sm:w-1/2 p-4 " data-aos="fade-right">
+            <div class="lg:w-1/3 sm:w-1/2 p-4 " data-aos="fade-up">
               <div class="flex relative">
                 <img
                   alt="gallery"
@@ -114,57 +118,60 @@ const PortfolioPage = () => {
                   src="/images/25.png"
                 />
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
+                  <h2 class="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
+                    Shopify
                   </h2>
                   <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                    Neptune
+                    E-Commerce
                   </h1>
                   <p class="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    We are a specialist shopify websites builder. We can build
+                    totally unique front end scalable sites with integrated
+                    shopify back ends
                   </p>
                 </div>
               </div>
             </div>
-            <div class="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
+            <div class="lg:w-1/3 sm:w-1/2 p-4" data-aos="zoom-in">
               <div class="flex relative">
                 <img
                   alt="gallery"
                   class="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/images/5.png"
+                  src="/images/27.jpeg"
                 />
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
+                  <h2 class="tracking-widest text-sm title-font font-medium text-custom-color-six b-1">
+                    Blogs
                   </h2>
                   <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                    Holden Caulfield
+                    We can create your blog
                   </h1>
                   <p class="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    We will work with you so you end up with an easy integrable
+                    website blog that can be access by all devices.
+                    <br />
                   </p>
                 </div>
               </div>
             </div>
-            <div class="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-left">
+            <div class="lg:w-1/3 sm:w-1/2 p-4" data-aos="zoom-out-left">
               <div class="flex relative">
                 <img
                   alt="gallery"
                   class="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/images/5.png"
+                  src="/images/28.jpeg"
                 />
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
+                  <h2 class="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
+                    Service industries
                   </h2>
                   <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                    Alper Kamu
+                    Reaching more people
                   </h1>
                   <p class="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    We can create a website that will allow for you to offer
+                    your services online with automated client billing. For one
+                    off sales and recurring billing
                   </p>
                 </div>
               </div>
@@ -178,7 +185,7 @@ const PortfolioPage = () => {
       <section class="text-gray-600 body-font bg-custom-color-one">
         <div class="container px-5 py-24 mx-auto pb-64">
           <div class="flex flex-wrap -m-4">
-            <div class="p-4 lg:w-1/3" data-aos="fade-right">
+            <div class="p-4 lg:w-1/3" data-aos="fade-down-right">
               <div class="h-full bg-custom-color-nine bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                 {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                   CATEGORY
@@ -190,7 +197,11 @@ const PortfolioPage = () => {
                   Wat is the difference between a custom website and an off the
                   shelf template?
                 </p>
-                <a class="text-indigo-500 inline-flex items-center">
+                <a
+                  href="/information"
+                  target="_blank"
+                  class="text-custom-color-six inline-flex items-center"
+                >
                   Learn More
                   <svg
                     class="w-4 h-4 ml-2"
@@ -253,7 +264,11 @@ const PortfolioPage = () => {
                   what is the difference between User Experience and User
                   Interface and do I need to think about it?
                 </p>
-                <a class="text-indigo-500 inline-flex items-center">
+                <a
+                  href="/information-two"
+                  target="_blank"
+                  class="text-custom-color-six inline-flex items-center"
+                >
                   Learn More
                   <svg
                     class="w-4 h-4 ml-2"
@@ -304,7 +319,7 @@ const PortfolioPage = () => {
             <div class="p-4 lg:w-1/3">
               <div
                 class="h-full bg-custom-color-nine bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative"
-                data-aos="fade-left"
+                data-aos="fade-down-left"
               >
                 {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                   CATEGORY
@@ -316,7 +331,7 @@ const PortfolioPage = () => {
                   How do I know what website I need and will those criteria
                   still be relevant for me in the future
                 </p>
-                <a class="text-indigo-500 inline-flex items-center">
+                <a class="text-custom-color-six inline-flex items-center">
                   Learn More
                   <svg
                     class="w-4 h-4 ml-2"
@@ -372,13 +387,13 @@ const PortfolioPage = () => {
       {/*Start of Moving Background */}
       <section>
         <div className="ml-44">
-          <div className="absolute w-3/5 h-32 top-1/3 left-1/4  bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-30  animate-blob animation-delay-2000 z-0 "></div>
+          <div className="absolute w-3/5 h-32 top-1/3 left-1/4  bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-20  animate-blob animation-delay-2000 z-0 "></div>
 
-          <div className="absolute w-3/5 h-24 top-2/3 left-80  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-40  animate-blob animation-delay-6000"></div>
+          <div className="absolute w-3/5 h-24 top-2/3 left-80  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-30  animate-blob animation-delay-6000"></div>
 
-          <div className="absolute w-3/5 h-24 top-1/2 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
+          <div className="absolute w-3/5 h-24 top-1/2 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
 
-          <div className="absolute w-3/5 h-24 bottom-1/4 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
+          <div className="absolute w-3/5 h-24 bottom-1/4 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
         </div>
 
         {/* End of Moving Background  */}

@@ -32,7 +32,7 @@ const Home = () => {
             <div className="flex justify-center">
               <a href="/information">
                 <button
-                  className="inline-flex text-white bg-green-300 border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg
+                  className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg
               "
                 >
                   Learn More
@@ -496,7 +496,7 @@ const Home = () => {
               </div>
               <div className="flex pt-5">
                 <button
-                  className="inline-flex text-white bg-green-300 border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg 
+                  className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg 
               "
                 >
                   Learn More
