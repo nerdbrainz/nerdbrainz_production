@@ -32,7 +32,7 @@ const Navbar = () => {
         <Link href="/">
           <img
             src="/images/Logo.png"
-            className="h-12 w-auto ml-6 mt-1"
+            className="h-20 w-auto ml-10 mt-1"
             alt=""
           />
         </Link>{" "}
@@ -65,9 +65,9 @@ const Navbar = () => {
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-1 font-bold items-center justify-center text-xl ">
                 Home
               </a>
-            </Link>
+            </Link> */}
 
-            <Link href="/about">
+            {/* <Link href="/about">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-1 font-bold items-center justify-center text-xl">
                 About us
               </a>

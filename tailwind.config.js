@@ -28,6 +28,9 @@ module.exports = {
         // Pumpkin
         "custom-color-eight": "#F3752B",
 
+        //Darker off white
+        "custom-color-nine": "#f0e9e9",
+
         // NB grey
         "custom-color-ten": "#888888",
       },

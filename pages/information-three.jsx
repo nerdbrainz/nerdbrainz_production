@@ -1,4 +1,4 @@
-const informationTwo = () => {
+const informationThree = () => {
   return (
     <section
       class="text-gray-600 body-font bg-custom-color-one min-h-full opacity-90
@@ -7,9 +7,9 @@ const informationTwo = () => {
       <div class="container mx-auto flex px-5 pt-10 pb-10  md:flex-row flex-col items-center -h-2/3">
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0">
           <img
-            class="object-cover object-center rounded"
+            class="object-cover object-center rounded opacity-80"
             alt="hero"
-            src="/images/20.png"
+            src="/images/22.png"
           />
         </div>
         <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -58,4 +58,4 @@ const informationTwo = () => {
   );
 };
 
-export default informationTwo;
+export default informationThree;

@@ -6,7 +6,7 @@ import { useEffect } from "react";
 const Home = () => {
   useEffect(() => {
     Aos.init({
-      duration: 2000,
+      duration: 3000,
     });
   }, []);
 
@@ -14,7 +14,10 @@ const Home = () => {
     <div className="App bg-custom-color-one ">
       {/* START OF with SECTION call-to-action-button  */}
       <section className="text-gray-600 body-font sm:pt-8 lg:pt-8 mx-12 z-50">
-        <div className="container mx-auto flex  py-24 md:flex-row flex-col items-center  lg:-mr-8 z-50">
+        <div
+          className="container mx-auto flex  py-24 md:flex-row flex-col items-center  lg:-mr-8 z-50"
+          data-aos="zoom-in"
+        >
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl   text-3xl mb-4 font-medium text-custom-color-ten opacity-75 lg:-ml-24 ">
               What will
@@ -27,12 +30,14 @@ const Home = () => {
             </p>
 
             <div className="flex justify-center">
-              <button
-                className="inline-flex text-white bg-green-300 border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg
+              <a href="/information">
+                <button
+                  className="inline-flex text-white bg-green-300 border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg
               "
-              >
-                Learn More
-              </button>
+                >
+                  Learn More
+                </button>
+              </a>
             </div>
           </div>
 
@@ -55,25 +60,30 @@ const Home = () => {
           data-aos="fade-up"
         >
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
-              className="object-cover object-center rounded opacity-75 -rotate-1"
-              alt="hero"
-              src="/images/13.png"
-            />
+            <a href="/information-two" target="_blank" className="cursor">
+              <img
+                className="object-cover object-center rounded  opacity-75 -rotate-1"
+                alt="hero"
+                src="/images/13.png"
+              />
+            </a>
           </div>
+
           <div
-            className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center
-          opacity-25"
+            className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center 
+          "
           >
-            <h1 className="title-font  sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              UN-muddling UX and UI Design
-            </h1>
-            <p className="mb-8 leading-relaxed px-5 md:px-0 lg:px-0">
-              Understanding User Experience and User Interface is a daunting
-              process. Read our guide to successful mastery of this science and
-              learn why it is essential to the future of your business. and find
-              out how Nerdbrainz will make it easier for you.
-            </p>
+            <a href="/information-two" target="_blank" className="cursor">
+              <h1 className="title-font  sm:text-4xl text-3xl mb-4 font-medium text-custom-color-ten opacity-75">
+                UN-muddling UX and UI Design
+              </h1>
+              <p className="mb-8 leading-relaxed px-5 md:px-0 lg:px-0 text-custom-color-ten opacity-90">
+                Understanding User Experience and User Interface is a daunting
+                process. Read our guide to successful mastery of this science
+                and learn why it is essential to the future of your business.
+                and find out how Nerdbrainz will make it easier for you.
+              </p>
+            </a>
           </div>
         </div>
       </section>
@@ -87,12 +97,12 @@ const Home = () => {
         data-aos="fade-up"
         data-aos-duration="4000"
       >
-        <div className="container px-5 lg:py-24 mx-auto opacity-25 mt-24 lg:mt-44">
+        <div className="container px-5 lg:py-24 mx-auto opacity-75 mt-24 lg:mt-44">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-6xl text-3xl font-medium title-font mb-2 text-custom-ivory">
+            <h1 className="sm:text-6xl text-3xl font-medium title-font mb-2 text-custom-color-ten opacity-75">
               How much will a professionally built website cost me
             </h1>
-            <p className="lg:w-2/3 text-xl mx-auto leading-relaxed text-base text-custom-ivory">
+            <p className="lg:w-2/3 text-xl mx-auto leading-relaxed text-base text-custom-color-ten opacity-90">
               Simple landing pages, personal blogs, and E-commerce. Our easy
               step by step approach will help you navigate through the choosing
               process.
@@ -440,21 +450,9 @@ const Home = () => {
       <div className="mt-24 ml-44">
         <div className="absolute w-2/5 h-32 top-10 left-4 top-2/3 bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000 z-0"></div>
 
-        {/* <div className="absolute w-2/5 min-h-screen top-10 left-4  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-6000"></div> */}
-
-        {/* <div className="absolute w-2/5 min-h-screen top-0 left-24 bg-custom-color-four rounded-full mix-blend-multiply filter blur-2xl opacity-5 animate-blob animation-delay-4000"></div> */}
-
-        {/* <div className="absolute w-2/5 min-h-screen top-0 left-24 bg-custom-color-four rounded-full mix-blend-multiply filter blur-2xl opacity-10 animate-blob animation-delay-2000"></div> */}
-
         <div className="absolute w-2/5 h-32 top-80 left-14 bg-custom-color-eight rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-6000"></div>
 
-        {/* <div className="absolute w-2/5 min-h-screen top-8  left-14 bg-custom-color-seven rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div> */}
-
         <div className="absolute w-2/5 h-32 bottom-12 right-4 bg-custom-color-six rounded-full mix-blend-multiply filter  opacity-10 blur-2xl  animate-blob animation-delay-2000"></div>
-
-        {/* <div className="absolute w-2/5 min-h-screen top-18 right-4 bg-custom-color-five rounded-full mix-blend-multiply filter  opacity-25 blur-2xl  animate-blob animation-delay-4000"></div> */}
-
-        {/* <div className="absolute w-2/5 min-h-screen top-18 bg-custom-color-four rounded-full mix-blend-multiply filter  opacity-10  animate-blob blur-3xl animation-delay-6000"></div> */}
 
         <div className="absolute w-2/5 min-h-screen top-18 bg-custom-color-eight rounded-full mix-blend-multiply filter  opacity-5  animate-blob blur-3xl animation-delay-2000"></div>
 
@@ -480,12 +478,15 @@ const Home = () => {
           </div>
 
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2  lg:pl-12 lg:text-left text-center ">
-            <div className="flex flex-col  lg:items-start items-center">
+            <div
+              className="flex flex-col  lg:items-start items-center"
+              data-aos="zoom-in"
+            >
               <div className="flex-grow">
-                <h2 className="text-2xl text-custom-color-ten text-center lg:text-7xl title-font font-medium pt-12 mb-5">
+                <h2 className="text-2xl text-custom-color-ten opacity-75 text-center lg:text-7xl title-font font-medium pt-12 mb-5">
                   Business Development
                 </h2>
-                <p className="leading-relaxed text-base text-2xl">
+                <p className="leading-relaxed text-base  text-custom-color-ten text-2xl">
                   We build bespoke websites that help our clients streamline
                   their businesses and reach more people. We have extensive
                   experience building SEO optimised web presences that range
@@ -510,7 +511,7 @@ const Home = () => {
         {/* Start of testimonials */}
         <section className="text-gray-600 body-font lg:pt-44">
           <div className="container px-5 pt-24 mx-auto">
-            <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
+            <h1 className="text-3xl font-medium title-font text-custom-color-ten opacity-75 mb-12 text-center">
               Testimonials
             </h1>
             <div className="flex flex-wrap -m-4">
