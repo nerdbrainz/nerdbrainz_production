@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="App bg-custom-color-one ">
       {/* START OF with SECTION call-to-action-button  */}
-      <section className="text-gray-600 body-font sm:pt-8 lg:pt-8 mx-12 z-50">
+      <section className="text-gray-600 body-font sm:pt-8 lg:pt-8 mx-12 z-50 ">
         <div
           className="container mx-auto flex  py-24 md:flex-row flex-col items-center  lg:-mr-8 z-50"
           data-aos="zoom-in"
@@ -53,6 +53,121 @@ const Home = () => {
 
       {/* END OF with SECTION call-to-action-button  */}
 
+      {/* start of what website Section */}
+
+      <section
+        id="about-feature"
+        className="text-gray-600 body-font bg-custom-color-Three lg:pb-44"
+        data-aos="fade-up"
+      >
+        <a href="/information" target="_blank">
+          <div className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap ">
+            <div className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
+              <img
+                alt="feature"
+                id="about-img"
+                className="object-cover object-center w-full pt-12 opacity-75 -rotate-6 "
+                src="/images/35.png"
+              />
+            </div>
+
+            <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2  lg:pl-20 lg:text-left text-center ">
+              <div className="flex flex-col  lg:items-start items-center">
+                <div className="flex-grow">
+                  <h1 className="title-font  sm:text-4xl text-3xl mb-4 font-medium lg:pt-24 text-custom-color-ten opacity-75">
+                    What website choices are there
+                  </h1>
+                  <p className="leading-relaxed text-base  text-custom-color-ten text-2xl">
+                    What are my options and what kind of websites can I choose
+                    from? What are the benefits for my business with a custom
+                    website.
+                  </p>
+                </div>
+                <div className="flex pt-5">
+                  {/* <button
+                  className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg 
+              "
+                >
+                  Learn More
+                </button> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </section>
+      {/* End of What website Section  */}
+
+      {/* Start of E-commerce/static/service provider */}
+
+      <section class="text-gray-600 body-font lg:pt-24 lg:pb-64">
+        <div class="container px-5 py-24 mx-auto" data-aos="zoom-in">
+          <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+            <div class="sm:w-1/3 mb-10 px-4">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <a href="/information-three" target="_blank">
+                  <img
+                    alt="content"
+                    class="object-cover object-center h-full w-full"
+                    src="/images/38.png"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="sm:w-1/3 mb-10 px-4">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <a href="" target="_blank">
+                  <img
+                    alt="content"
+                    class="object-cover object-center h-full w-full"
+                    src="/images/36.png"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="sm:w-1/3 mb-10 px-4">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <a href="/information-four" target="_blank">
+                  <img
+                    alt="content"
+                    class="object-cover object-center h-full w-full"
+                    src="/images/37.png"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-1 md:px-1 lg:my-1 lg:px-1 xl:my-2 xl:px-2">
+              <div
+                className="container mx-auto flex flex-col px-5  justify-center items-center text-center
+          "
+              >
+                <p
+                  className="
+                  text-base
+              mt-2 
+              text-gray-500 
+              mb-8 
+              w-full 
+              text-custom-color-ten 
+              opacity-90 
+              body-font 
+              w-2/3 
+              sm:text-4xl text-3xl
+              font-medium lg:pt-24 
+              text-custom-color-ten opacity-70
+            "
+                >
+                  Find out more about what each of these types of website
+                  actually do and what is right for you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* End of E-commerce/static/service provider */}
+
       {/* Start of UI Examples */}
       <section className="text-gray-600 body-font">
         <div
@@ -75,7 +190,7 @@ const Home = () => {
           >
             <a href="/information-two" target="_blank" className="cursor">
               <h1 className="title-font  sm:text-4xl text-3xl mb-4 font-medium text-custom-color-ten opacity-75">
-                UN-muddling UX and UI Design
+                Un-muddling UX and UI Design
               </h1>
               <p className="mb-8 leading-relaxed px-5 md:px-0 lg:px-0 text-custom-color-ten opacity-90">
                 Understanding User Experience and User Interface is a daunting
@@ -467,7 +582,10 @@ const Home = () => {
         id="about-feature"
         className="text-gray-600 body-font bg-custom-color-Three lg:pb-96"
       >
-        <div className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap ">
+        <div
+          className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap "
+          data-aos="fade-up-right"
+        >
           <div className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
             <img
               alt="feature"
