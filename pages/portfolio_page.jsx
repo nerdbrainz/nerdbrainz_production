@@ -147,8 +147,9 @@ const PortfolioPage = () => {
                     We can create your blog
                   </h1>
                   <p class="leading-relaxed">
-                    We will work with you so you end up with an easy integrable
-                    website blog that can be access by all devices.
+                    We will work with you so you end up with an easy a
+                    beautifully functioning website blog that can be accessed by
+                    all devices.
                     <br />
                   </p>
                 </div>
@@ -381,6 +382,15 @@ const PortfolioPage = () => {
             </div>
           </div>
         </div>
+        {/* Start of button Section */}
+        <div class="flex justify-center pb-28">
+          <a href="/contact" target="_blank">
+            <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-custom-color-six rounded text-lg">
+              Say Hello
+            </button>
+          </a>
+        </div>
+        {/* End of button Section */}
       </section>
       {/* End second row of cards */}
 

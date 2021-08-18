@@ -39,7 +39,7 @@ const information = () => {
         </div>
       </div>
       <div class="flex flex-wrap -mx-1 overflow-hidden mx-5 pb-10 sm:-mx-1 md:-mx-2 lg:-mx-1 xl:-mx-1 lg:px-12 md:items-start md:text-left items-center text-center">
-        <div class="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-2 md:px-2 lg:my-1 lg:px-1 xl:my-1 xl:px-1 sm:px-10 text-custom-color-ten  pb-24">
+        <div class="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-2 md:px-2 lg:my-1 lg:px-1 xl:my-1 xl:px-1 sm:px-10 text-custom-color-ten  ">
           <p>
             Though the initial time and investment is greater with a custom site
             the return on investment (ROI) can be experiential. Consumers are
@@ -60,15 +60,30 @@ const information = () => {
         </div>
       </div>
 
+      {/* Start of button Section */}
+      <div class="flex justify-center pb-28">
+        <a href="/portfolio_page" target="_blank">
+          <button class="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:custom-color-eleven rounded text-lg">
+            Portfolio
+          </button>
+        </a>
+        <a href="/contact" target="_blank">
+          <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-custom-color-six rounded text-lg">
+            Say Hello
+          </button>
+        </a>
+      </div>
+      {/* End of button Section */}
+
       {/*Start of Moving Background */}
       <div className="ml-44">
-        <div className="absolute w-3/5 h-32 top-3/5 left-4  bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob animation-delay-2000 z-0 "></div>
+        <div className="absolute w-3/5 h-32 top-3/5 left-1/3   bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob animation-delay-2000 z-0 "></div>
 
         <div className="absolute w-2/5 h-24 top-1/2 left-4  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-6000"></div>
 
-        <div className="absolute w-2/5 h-24 top-1/2 left-4  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+        <div className="absolute w-2/5 h-24 top-1/2 left-1/3   bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
 
-        <div className="absolute w-2/5 h-24 bottom-44 left-4  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+        <div className="absolute w-2/5 h-24 bottom-44 left-1/3  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
       </div>
 
       {/* End of Moving Background  */}

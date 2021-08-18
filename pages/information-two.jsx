@@ -4,7 +4,7 @@ const informationTwo = () => {
       class="text-gray-600 body-font bg-custom-color-one min-h-full opacity-90
     "
     >
-      <div class="container mx-auto flex px-5 pt-10 pb-10  md:flex-row flex-col items-center -h-2/3">
+      <div class="container mx-auto flex px-5   md:flex-row flex-col items-center -h-2/3">
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0">
           <img
             class="object-cover object-center rounded"
@@ -41,6 +41,21 @@ const informationTwo = () => {
           </p>
         </div>
       </div>
+
+      {/* Start of button Section */}
+      <div class="flex justify-center pb-28">
+        <a href="/portfolio_page" target="_blank">
+          <button class="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:custom-color-eleven rounded text-lg">
+            Portfolio
+          </button>
+        </a>
+        <a href="/contact" target="_blank">
+          <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-custom-color-six rounded text-lg">
+            Say Hello
+          </button>
+        </a>
+      </div>
+      {/* End of button Section */}
 
       {/*Start of Moving Background */}
       <div className="ml-44">

@@ -33,6 +33,9 @@ module.exports = {
 
         // NB grey
         "custom-color-ten": "#888888",
+
+        // Red/pink
+        "custom-color-eleven": "#ec4067",
       },
 
       animation: {

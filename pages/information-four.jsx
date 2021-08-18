@@ -59,8 +59,8 @@ const informationFour = () => {
           </p>
         </div>
       </div>
-      <div class="flex flex-wrap -mx-1 overflow-hidden mx-5 pb-10 sm:-mx-1 md:-mx-2 lg:-mx-1 xl:-mx-1 lg:px-12 md:items-start md:text-left items-center text-center">
-        <div class="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-2 md:px-2 lg:my-1 lg:px-1 xl:my-1 xl:px-1 sm:px-10 text-custom-color-ten  pb-24">
+      <div class="flex flex-wrap -mx-1 overflow-hidden mx-5  sm:-mx-1 md:-mx-2 lg:-mx-1 xl:-mx-1 lg:px-12 md:items-start md:text-left items-center text-center">
+        <div class="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-2 md:px-2 lg:my-1 lg:px-1 xl:my-1 xl:px-1 sm:px-10 text-custom-color-ten  pb-12">
           <p class="mb-8 lg:pl-30 leading-relaxed text-custom-color-ten">
             Luckily for us there are a number of very good CMS Content
             Management System systems on the market. A good CMS will handle all
@@ -125,6 +125,21 @@ const informationFour = () => {
           </p> */}
         </div>
       </div>
+
+      {/* Start of button Section */}
+      <div class="flex justify-center pb-28">
+        <a href="/portfolio_page" target="_blank">
+          <button class="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:custom-color-eleven rounded text-lg">
+            Portfolio
+          </button>
+        </a>
+        <a href="/contact" target="_blank">
+          <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-custom-color-six rounded text-lg">
+            Say Hello
+          </button>
+        </a>
+      </div>
+      {/* End of button Section */}
 
       {/*Start of Moving Background */}
       <div className="ml-44">
