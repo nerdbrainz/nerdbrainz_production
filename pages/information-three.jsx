@@ -1,22 +1,22 @@
 const informationThree = () => {
   return (
     <section
-      class=" body-font bg-custom-color-one min-h-full opacity-90
+      className=" body-font bg-custom-color-one min-h-full opacity-90
     "
     >
-      <div class="container mx-auto flex px-5 pt-24  md:flex-row flex-col items-center">
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0">
+      <div className="container mx-auto flex px-5 pt-24  md:flex-row flex-col items-center">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0">
           <img
-            class="object-cover object-center rounded opacity-75"
+            className="object-cover object-center rounded opacity-75"
             alt="hero"
             src="/images/22.png"
           />
         </div>
-        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-custom-color-ten">
+        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-custom-color-ten">
             So What Is A Static Website?
           </h1>
-          <p class="mb-8 leading-relaxed text-custom-color-ten">
+          <p className="mb-8 leading-relaxed text-custom-color-ten">
             A static site is the perfect option for businesses wanting to convey
             information but not necessarily use their site heavily for sales or
             high customer interaction. A good example of an optimum static
@@ -38,10 +38,10 @@ const informationThree = () => {
           </p>
           <br />
 
-          <h3 class="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
+          <h3 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
             Landing Page{" "}
           </h3>
-          <p class="mb-8 leading-relaxed text-custom-color-ten">
+          <p className="mb-8 leading-relaxed text-custom-color-ten">
             The Landing page is the first page that should load on a static
             website. It is good to think of the Landing Page as your shopfront,
             as it represents your company. Customers will interoperate what you
@@ -50,10 +50,10 @@ const informationThree = () => {
             internet users really understand and appreciate quality.
           </p>
           <br />
-          <h3 class="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
+          <h3 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
             An About Page{" "}
           </h3>
-          <p class="mb-8 leading-relaxed text-custom-color-ten">
+          <p className="mb-8 leading-relaxed text-custom-color-ten">
             The about page is self explanatory, but it is a chance to
             communicate in greater depth your vision for your company and where
             you feel it belongs in the world. The about page is also a great
@@ -62,10 +62,10 @@ const informationThree = () => {
             potential customers over.
           </p>
           <br />
-          <h3 class="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
+          <h3 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
             The Contact Page
           </h3>
-          <p class="mb-8 leading-relaxed text-custom-color-ten">
+          <p className="mb-8 leading-relaxed text-custom-color-ten">
             The contact page is there to tell customers how to get in touch with
             you. If you are at a geographical location it should have your
             address and often a google map view and link to make it easier for
@@ -81,12 +81,12 @@ const informationThree = () => {
           </p>
         </div>
       </div>
-      <div class="flex flex-wrap -mx-1 overflow-hidden mx-5  sm:-mx-1 md:-mx-2 lg:-mx-1 xl:-mx-1 lg:px-8 md:items-start md:text-left items-center text-center">
-        <div class="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-2 md:px-2 lg:my-1 lg:px-1 xl:my-1 xl:px-1 sm:px-10 text-custom-color-ten  pb-24">
-          <h3 class="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
+      <div className="flex flex-wrap -mx-1 overflow-hidden mx-5  sm:-mx-1 md:-mx-2 lg:-mx-1 xl:-mx-1 lg:px-8 md:items-start md:text-left items-center text-center">
+        <div className="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-2 md:px-2 lg:my-1 lg:px-1 xl:my-1 xl:px-1 sm:px-10 text-custom-color-ten  pb-24">
+          <h3 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
             Further Information Pages
           </h3>
-          <p class="mb-8 leading-relaxed text-custom-color-ten">
+          <p className="mb-8 leading-relaxed text-custom-color-ten">
             This is an opportunity for a more in-depth look at what your company
             aspires to and what it represents. Further pages are often used to
             show examples of your work, share case studies and testimonials from
@@ -109,10 +109,10 @@ const informationThree = () => {
             totally unique custom website built just for you.
           </p>
 
-          <h3 class="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
+          <h3 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
             The Blog
           </h3>
-          <p class="mb-8 leading-relaxed text-custom-color-ten">
+          <p className="mb-8 leading-relaxed text-custom-color-ten">
             A blog is a great opportunity to reach more people and boost your
             aforementioned search engine optimisation. A good blog from a
             service or product provider is an amazing tool to educate those
@@ -125,10 +125,10 @@ const informationThree = () => {
 
           <br />
 
-          <h3 class="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
+          <h3 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
             To Summarize
           </h3>
-          <p class="mb-8 leading-relaxed text-custom-color-ten">
+          <p className="mb-8 leading-relaxed text-custom-color-ten">
             A static website is a great first choice for those businesses that
             need to share information. Buying a custom website is an investment
             and will help to future proof your company. As many static websites
@@ -140,14 +140,14 @@ const informationThree = () => {
       </div>
 
       {/* Start of button Section */}
-      <div class="flex justify-center pb-28">
+      <div className="flex justify-center pb-28">
         <a href="/portfolio_page" target="_blank">
-          <button class="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:custom-color-eleven rounded text-lg">
+          <button className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:custom-color-eleven rounded text-lg">
             Portfolio
           </button>
         </a>
         <a href="/contact" target="_blank">
-          <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-custom-color-six rounded text-lg">
+          <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-custom-color-six rounded text-lg">
             Say Hello
           </button>
         </a>
@@ -155,14 +155,14 @@ const informationThree = () => {
       {/* End of button Section */}
 
       {/*Start of Moving Background */}
-      <div className="ml-44">
-        <div className="absolute w-2/5 h-32 top-1/3 left-4  bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000 z-0 "></div>
+      <div classNameName="ml-44">
+        <div classNameName="absolute w-2/5 h-32 top-1/3 left-4  bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000 z-0 "></div>
 
-        <div className="absolute w-2/5 h-24 top-2/3 left-4  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-6000"></div>
+        <div classNameName="absolute w-2/5 h-24 top-2/3 left-4  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-6000"></div>
 
-        <div className="absolute w-2/5 h-24 top-1/2 left-4  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+        <div classNameName="absolute w-2/5 h-24 top-1/2 left-4  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
 
-        <div className="absolute w-2/5 h-24 bottom-44 left-4  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+        <div classNameName="absolute w-2/5 h-24 bottom-44 left-4  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
       </div>
 
       {/* End of Moving Background  */}

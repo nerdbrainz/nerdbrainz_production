@@ -1,23 +1,23 @@
 const about = () => {
   return (
     <section
-      class=" body-font bg-custom-color-one min-h-full opacity-90
+      className=" body-font bg-custom-color-one min-h-full opacity-90
     "
     >
       {/* Start of text section */}
-      <div class="container mx-auto flex px-5 pt-24  md:flex-row flex-col items-center">
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0">
+      <div className="container mx-auto flex px-5 pt-24  md:flex-row flex-col items-center">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0">
           <img
-            class="object-cover object-center rounded opacity-50"
+            className="object-cover object-center rounded opacity-50"
             alt="hero"
             src="/images/47.png"
           />
         </div>
-        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-custom-color-ten">
+        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-custom-color-ten">
             Who We Are
           </h1>
-          <p class="mb-8 leading-relaxed text-custom-color-ten">
+          <p className="mb-8 leading-relaxed text-custom-color-ten">
             NerdBrainz is a concept that has been in the making for several
             years and across three continents. The brain child of best friends
             Jared and Alexander. The Idea was first conceived when they met as
@@ -36,7 +36,7 @@ const about = () => {
             <br />
           </p>
           <br />
-          <p class="mb-8 leading-relaxed text-custom-color-ten">
+          <p className="mb-8 leading-relaxed text-custom-color-ten">
             With a firm footing in developing static and E-commerce websites we
             take great pride in creating platforms that allow people to increase
             the size and earning potential of their current business, or realise
@@ -49,7 +49,7 @@ const about = () => {
           </p>
           <br />
 
-          <p class="mb-8 leading-relaxed text-custom-color-ten">
+          <p className="mb-8 leading-relaxed text-custom-color-ten">
             We listen to your proposals for the future direction of your company
             and we design custom websites that actually grow with your business,
             and can even facilitate and speed up that growth.
@@ -64,14 +64,14 @@ const about = () => {
       {/* End of text section */}
 
       {/* Start of button Section */}
-      <div class="flex justify-center pb-28">
+      <div className="flex justify-center pb-28">
         <a href="/portfolio_page" target="_blank">
-          <button class="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:custom-color-eleven rounded text-lg">
+          <button className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:custom-color-eleven rounded text-lg">
             Portfolio
           </button>
         </a>
         <a href="/contact" target="_blank">
-          <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-custom-color-six rounded text-lg">
+          <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-custom-color-six rounded text-lg">
             Say Hello
           </button>
         </a>

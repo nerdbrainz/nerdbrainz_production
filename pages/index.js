@@ -100,43 +100,43 @@ const Home = () => {
 
       {/* Start of E-commerce/static/service provider */}
 
-      <section class="text-gray-600 body-font lg:pt-24  lg:pb-64">
-        <div class="container px-5 py-24 mx-auto" data-aos="zoom-in">
-          <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-            <div class="sm:w-1/3 mb-10 px-4">
-              <div class="rounded-lg h-64 overflow-hidden">
+      <section className="text-gray-600 body-font lg:pt-24  lg:pb-64">
+        <div className="container px-5 py-24 mx-auto" data-aos="zoom-in">
+          <div className="flex flex-wrap -mx-4 -mb-10 text-center">
+            <div className="sm:w-1/3 mb-10 px-4">
+              <div className="rounded-lg h-64 overflow-hidden">
                 <a href="/information-three" target="_blank">
                   <img
                     alt="content"
-                    class="object-cover object-center h-full w-full"
+                    className="object-cover object-center h-full w-full"
                     src="/images/38.png"
                   />
                 </a>
               </div>
             </div>
-            <div class="sm:w-1/3 mb-10 px-4">
-              <div class="rounded-lg h-64 overflow-hidden">
+            <div className="sm:w-1/3 mb-10 px-4">
+              <div className="rounded-lg h-64 overflow-hidden">
                 <a href="" target="_blank">
                   <img
                     alt="content"
-                    class="object-cover object-center h-full w-full"
+                    className="object-cover object-center h-full w-full"
                     src="/images/36.png"
                   />
                 </a>
               </div>
             </div>
-            <div class="sm:w-1/3 mb-10 px-4">
-              <div class="rounded-lg h-64 overflow-hidden">
+            <div className="sm:w-1/3 mb-10 px-4">
+              <div className="rounded-lg h-64 overflow-hidden">
                 <a href="/information-four" target="_blank">
                   <img
                     alt="content"
-                    class="object-cover object-center h-full w-full"
+                    className="object-cover object-center h-full w-full"
                     src="/images/37.png"
                   />
                 </a>
               </div>
             </div>
-            <div class="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-1 md:px-1 lg:my-1 lg:px-1 xl:my-2 xl:px-2  md:pb-44">
+            <div className="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-1 md:px-1 lg:my-1 lg:px-1 xl:my-2 xl:px-2  md:pb-44">
               <div
                 className="container mx-auto flex flex-col px-5  justify-center items-center text-center
           "
