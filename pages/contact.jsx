@@ -1,4 +1,39 @@
-const contact = () => {
+import { useState } from 'react';
+import getConfig from 'next/config'
+
+const {publicRuntimeConfig} = getConfig()
+
+const Contact = () => {
+   
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [subject, setSubject] = useState('')
+    const [message, setMessage] = useState('')
+
+    async function addCustomer() {
+
+        const customerInfo = {
+            Name:name,
+            Email:email,
+            Subject:subject,
+            Message:message
+        }
+
+        const add = await fetch('http://localhost:1337/crms', {
+            method: "POST",
+             
+            body: JSON.stringify(customerInfo)
+        })
+
+        const addResponse = await add.json()
+
+        console.log(addResponse)
+        
+
+
+      }
+
+
   return (
     <>
       <section className=" bg-custom-color-one lg:pb-12 opacity-90">
@@ -18,14 +53,17 @@ const contact = () => {
               <div className="flex flex-wrap -m-2">
                 <div className="p-2 w-1/2">
                   <div className="relative">
-                    <label htmlFor="name" className="leading-7 text-sm text-gray-600">
+                    <label className="leading-7 text-sm text-gray-600" htmlFor="name" >
                       Name
                     </label>
                     <input
+
                       type="text"
                       id="name"
                       name="name"
+                      placeholder='Name'
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      onChange={e=> setName(e.target.value)}
                     />
                   </div>
                 </div>
@@ -39,6 +77,7 @@ const contact = () => {
                       id="email"
                       name="email"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      onChange={e=> setEmail(e.target.value)}
                     />
                   </div>
                 </div>
@@ -52,6 +91,7 @@ const contact = () => {
                       id="subject"
                       name="subject"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      onChange={e=> setSubject(e.target.value)}
                     />
                   </div>
                 </div>
@@ -67,11 +107,12 @@ const contact = () => {
                       id="message"
                       name="message"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                      onChange={e=>setMessage(e.target.value)}
                     ></textarea>
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="flex mx-auto text-white bg-custom-color-six border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                  <button className="flex mx-auto text-white bg-custom-color-six border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onClick={()=>addCustomer()}>
                     Button
                   </button>
                 </div>
@@ -166,4 +207,5 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
+ 
