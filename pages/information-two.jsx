@@ -23,7 +23,7 @@ const informationTwo = () => {
             where engineering, behavioural science and art and design meet. A
             way of looking at is. UI is the creation of a button on a website
             and UX is the likelihood that a customer would want to interact with
-            the button.
+            the button..
             <br />
             <br />
             This is considered so important that large companies invest hugely
