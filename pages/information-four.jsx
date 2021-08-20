@@ -9,7 +9,7 @@ const informationFour = () => {
           <img
             className="object-cover object-center rounded opacity-50"
             alt="hero"
-            src="/images/30.png"
+            src="/static/images/30.png"
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Meta from "./components/partials/Meta";
 
 const Home = () => {
   useEffect(() => {
@@ -12,6 +13,10 @@ const Home = () => {
 
   return (
     <div className="App bg-custom-color-one ">
+      <Meta
+        title="Home"
+        desc="Nerbrainz is the best web development company in the world."
+      />
       {/* START OF with SECTION call-to-action-button  */}
       <section className="text-gray-600 body-font sm:pt-8 lg:pt-8 mx-12 z-50 ">
         <div
@@ -45,7 +50,7 @@ const Home = () => {
             <img
               className="object-cover object-center rounded shadow-2xl "
               alt="hero"
-              src="/images/14.png"
+              src="/static/images/14.png"
             />
           </div>
         </div>
@@ -67,7 +72,7 @@ const Home = () => {
                 alt="feature"
                 id="about-img"
                 className="object-cover object-center w-full pt-12 opacity-90  "
-                src="/images/35.png"
+                src="/static/images/35.png"
               />
             </div>
 
@@ -109,7 +114,7 @@ const Home = () => {
                   <img
                     alt="content"
                     className="object-cover object-center h-full w-full"
-                    src="/images/38.png"
+                    src="/static/images/38.png"
                   />
                 </a>
               </div>
@@ -120,7 +125,7 @@ const Home = () => {
                   <img
                     alt="content"
                     className="object-cover object-center h-full w-full"
-                    src="/images/36.png"
+                    src="/static/images/36.png"
                   />
                 </a>
               </div>
@@ -131,7 +136,7 @@ const Home = () => {
                   <img
                     alt="content"
                     className="object-cover object-center h-full w-full"
-                    src="/images/37.png"
+                    src="/static/images/37.png"
                   />
                 </a>
               </div>
@@ -181,7 +186,7 @@ const Home = () => {
               <img
                 className="object-cover object-center rounded  opacity-90 -rotate-1"
                 alt="hero"
-                src="/images/42.png"
+                src="/static/images/42.png"
               />
             </a>
           </div>
@@ -593,7 +598,7 @@ const Home = () => {
               alt="feature"
               id="about-img"
               className="object-cover object-center w-full pt-20 opacity-90 -rotate-1"
-              src="/images/19.png"
+              src="/static/images/19.png"
             />
           </div>
 

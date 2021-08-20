@@ -9,7 +9,7 @@ const information = () => {
           <img
             className="object-cover object-center rounded opacity-75"
             alt="hero"
-            src="/images/21.png"
+            src="/static/images/21.png"
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -76,14 +76,14 @@ const information = () => {
       {/* End of button Section */}
 
       {/*Start of Moving Background */}
-      <div classNameName="ml-44">
-        <div classNameName="absolute w-3/5 h-32 top-3/5 left-1/3   bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob animation-delay-2000 z-0 "></div>
+      <div className="ml-44">
+        <div className="absolute w-3/5 h-32 top-3/5 left-1/3   bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob animation-delay-2000 z-0 "></div>
 
-        <div classNameName="absolute w-2/5 h-24 top-1/2 left-4  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-6000"></div>
+        <div className="absolute w-2/5 h-24 top-1/2 left-4  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-6000"></div>
 
-        <div classNameName="absolute w-2/5 h-24 top-1/2 left-1/3   bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+        <div className="absolute w-2/5 h-24 top-1/2 left-1/3   bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
 
-        <div classNameName="absolute w-2/5 h-24 bottom-44 left-1/3  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+        <div className="absolute w-2/5 h-24 bottom-44 left-1/3  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
       </div>
 
       {/* End of Moving Background  */}

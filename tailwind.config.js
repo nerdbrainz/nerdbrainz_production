@@ -36,6 +36,10 @@ module.exports = {
 
         // Red/pink
         "custom-color-eleven": "#ec4067",
+        "custom-tan": "#c7a17a",
+        "custom-black-light": "#191919",
+        "custom-black-dark": "#121315",
+        "custom-black-mid": "#1c1c1c",
       },
 
       animation: {
