@@ -6,6 +6,7 @@ import {
   faInstagram,
   faFacebook,
   faTwitter,
+  FaLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 config.autoAddCss = false;
@@ -17,7 +18,7 @@ const SocialIcons = () => {
       <li>
         <a
           className="text-custom-color-1 "
-          href="https://facebook.com"
+          href="https://www.facebook.com/Nerd-Brainz-102671178793220"
           rel="noopener"
           target="_blank"
         >
@@ -29,7 +30,7 @@ const SocialIcons = () => {
       </li>
       <li>
         <a
-          href="https://twitter.com"
+          href="https://twitter.com/BrainzNerd"
           rel="noopener"
           target="_blank"
           className="text-custom-color-two"
@@ -41,15 +42,25 @@ const SocialIcons = () => {
         </a>
       </li>
       <li>
-        <a href="https://youtube.com" rel="noopener" target="_blank">
+        <a
+          href="https://www.linkedin.com/company/nerd-brainz/about/?viewAsMember=true"
+          rel="noopener"
+          target="_blank"
+        >
           <FontAwesomeIcon
-            icon={["fab", "youtube"]}
-            className="custom-color-two mr-3 h-10 w-10 text-custom-color-two hover:scale-125"
+            icon={["fab", "linkedin"]}
+            className="custom-color-1
+             mr-3 h-10 w-10 text-custom-color-two hover:scale-125"
           />
         </a>
       </li>
+
       <li>
-        <a href="https://instagram.com" rel="noopener" target="_blank">
+        <a
+          href="https://www.instagram.com/nerd_brainz/"
+          rel="noopener"
+          target="_blank"
+        >
           <FontAwesomeIcon
             icon={["fab", "instagram"]}
             className="text-custom-color-three mr-3 h-10 w-10 text-custom-color-three hover:scale-125"

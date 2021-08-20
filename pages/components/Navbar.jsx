@@ -88,7 +88,7 @@ const Navbar = () => {
               </a>
             </Link>
           </div>
-          <SocialIcons />
+          {/* <SocialIcons /> */}
         </div>
       </nav>
     </>
