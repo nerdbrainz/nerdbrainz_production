@@ -132,7 +132,7 @@ const PortfolioPage = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3 sm:w-1/2 p-4 " data-aos="zoom-in">
+            <div className="lg:w-1/3 sm:w-1/2 p-4  1`rewq9" data-aos="zoom-in">
               <div className="flex relative">
                 <img
                   alt="gallery"
