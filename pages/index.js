@@ -6,17 +6,20 @@ import { useEffect } from "react";
 const Home = () => {
   useEffect(() => {
     Aos.init({
-      duration: 2000,
+      duration: 3000,
     });
   }, []);
 
   return (
     <div className="App bg-custom-color-one ">
       {/* START OF with SECTION call-to-action-button  */}
-      <section className="text-gray-600 body-font sm:pt-8 lg:pt-8 mx-12 z-50">
-        <div className="container mx-auto flex  py-24 md:flex-row flex-col items-center  lg:-mr-8 z-50">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl   text-3xl mb-4 font-medium text-custom-color-ten opacity-75 lg:-ml-24 ">
+      <section className="text-gray-600 body-font sm:pt-8 lg:pt-8 mx-12 z-50 ">
+        <div
+          className="container mx-auto flex  py-8 lg:py-24 md:flex-row flex-col items-center  lg:-mr-8 z-50 md:pl-12"
+          data-aos="zoom-in"
+        >
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:py-44 md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 className="title-font sm:text-4xl   text-3xl mb-4 font-medium text-custom-color-ten opacity-90 lg:-ml-24 ">
               What will
               <br className="hidden lg:inline-block" /> a custom website
               actually look like
@@ -27,12 +30,14 @@ const Home = () => {
             </p>
 
             <div className="flex justify-center">
-              <button
-                className="inline-flex text-white bg-green-300 border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg
+              <a href="/information">
+                <button
+                  className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg
               "
-              >
-                Learn More
-              </button>
+                >
+                  Learn More
+                </button>
+              </a>
             </div>
           </div>
 
@@ -48,32 +53,154 @@ const Home = () => {
 
       {/* END OF with SECTION call-to-action-button  */}
 
+      {/* start of what website Section */}
+
+      <section
+        id="about-feature"
+        className="text-gray-600 body-font bg-custom-color-Three lg:pb-44"
+        data-aos="fade-up"
+      >
+        <a href="/information" target="_blank">
+          <div className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap ">
+            <div className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
+              <img
+                alt="feature"
+                id="about-img"
+                className="object-cover object-center w-full pt-12 opacity-90  "
+                src="/images/35.png"
+              />
+            </div>
+
+            <div className="flex flex-col flex-wrap  lg:py-6 -mb-10 lg:w-1/2  lg:pl-20 lg:text-left text-center md:pb-24 ">
+              <div className="flex flex-col  lg:items-start items-center ">
+                <div className="flex-grow">
+                  <h1 className="title-font  sm:text-4xl text-3xl mb-4 font-medium pt-12 lg:pt-24 text-custom-color-ten opacity-90 ">
+                    What website choices are there
+                  </h1>
+                  <p className="leading-relaxed text-base  text-custom-color-ten text-2xl pb-24">
+                    What are my options and what kind of websites can I choose
+                    from? What are the benefits for my business with a custom
+                    website.
+                  </p>
+                </div>
+                <div className="flex pt-5">
+                  {/* <button
+                  className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg 
+              "
+                >
+                  Learn More
+                </button> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </section>
+      {/* End of What website Section  */}
+
+      {/* Start of E-commerce/static/service provider */}
+
+      <section className="text-gray-600 body-font lg:pt-24  lg:pb-64">
+        <div className="container px-5 py-24 mx-auto" data-aos="zoom-in">
+          <div className="flex flex-wrap -mx-4 -mb-10 text-center">
+            <div className="sm:w-1/3 mb-10 px-4">
+              <div className="rounded-lg h-64 overflow-hidden">
+                <a href="/information-three" target="_blank">
+                  <img
+                    alt="content"
+                    className="object-cover object-center h-full w-full"
+                    src="/images/38.png"
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="sm:w-1/3 mb-10 px-4">
+              <div className="rounded-lg h-64 overflow-hidden">
+                <a href="" target="_blank">
+                  <img
+                    alt="content"
+                    className="object-cover object-center h-full w-full"
+                    src="/images/36.png"
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="sm:w-1/3 mb-10 px-4">
+              <div className="rounded-lg h-64 overflow-hidden">
+                <a href="/information-four" target="_blank">
+                  <img
+                    alt="content"
+                    className="object-cover object-center h-full w-full"
+                    src="/images/37.png"
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-1 md:px-1 lg:my-1 lg:px-1 xl:my-2 xl:px-2  md:pb-44">
+              <div
+                className="container mx-auto flex flex-col px-5  justify-center items-center text-center
+          "
+              >
+                <p
+                  className="
+                  text-base
+
+              mt-2 
+              text-gray-500 
+              mb-8 
+              w-full 
+              text-custom-color-ten 
+              opacity-90 
+              body-font 
+              w-2/3 
+              sm:text-4xl text-3xl
+              font-medium lg:pt-24 
+              md:pb-12
+              text-custom-color-ten opacity-90
+            "
+                >
+                  Find out more about what each of these types of website
+                  actually do and what is right for you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* End of E-commerce/static/service provider */}
+
       {/* Start of UI Examples */}
       <section className="text-gray-600 body-font">
         <div
-          className="container mx-auto flex  sm:p20 lg:pt-32 md:flex-row flex-col items-center "
+          className="container mx-auto flex  sm:p20  md:py-44 pb-24 md:pt- lg:pt-32 md:flex-row flex-col items-center "
           data-aos="fade-up"
         >
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
-              className="object-cover object-center rounded opacity-75 -rotate-1"
-              alt="hero"
-              src="/images/13.png"
-            />
+            <a href="/information-two" target="_blank" className="cursor">
+              <img
+                className="object-cover object-center rounded  opacity-90 -rotate-1"
+                alt="hero"
+                src="/images/42.png"
+              />
+            </a>
           </div>
+
           <div
-            className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center
-          opacity-25"
+            className="lg:flex-grow md:w-1/2 md:py-4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center 
+          "
           >
-            <h1 className="title-font  sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              UN-muddling UX and UI Design
-            </h1>
-            <p className="mb-8 leading-relaxed px-5 md:px-0 lg:px-0">
-              Understanding User Experience and User Interface is a daunting
-              process. Read our guide to successful mastery of this science and
-              learn why it is essential to the future of your business. and find
-              out how Nerdbrainz will make it easier for you.
-            </p>
+            <a href="/information-two" target="_blank" className="cursor">
+              <h1 className="title-font  sm:text-4xl  md:mr-8 text-3xl mb-4 font-medium text-custom-color-ten opacity-90">
+                Un-muddling UX and UI Design
+              </h1>
+              <p className="mb-8 leading-relaxed px-5 md:px-0 lg:px-0 text-custom-color-ten opacity-90 md:mr-12">
+                Understanding User Experience and User Interface is a daunting
+                process. Read our guide to successful mastery of this science
+                and learn why it is essential to the future of your business.
+                and find out how Nerdbrainz will make it easier for you.
+              </p>
+            </a>
           </div>
         </div>
       </section>
@@ -87,12 +214,12 @@ const Home = () => {
         data-aos="fade-up"
         data-aos-duration="4000"
       >
-        <div className="container px-5 lg:py-24 mx-auto opacity-25 mt-24 lg:mt-44">
+        <div className="container px-5 lg:py-24 mx-auto opacity-90 mt-24 lg:mt-44">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-6xl text-3xl font-medium title-font mb-2 text-custom-ivory">
+            <h1 className="sm:text-6xl text-3xl font-medium title-font mb-2 text-custom-color-ten ">
               How much will a professionally built website cost me
             </h1>
-            <p className="lg:w-2/3 text-xl mx-auto leading-relaxed text-base text-custom-ivory">
+            <p className="lg:w-2/3 text-xl mx-auto leading-relaxed text-base text-custom-color-ten opacity-90">
               Simple landing pages, personal blogs, and E-commerce. Our easy
               step by step approach will help you navigate through the choosing
               process.
@@ -440,25 +567,13 @@ const Home = () => {
       <div className="mt-24 ml-44">
         <div className="absolute w-2/5 h-32 top-10 left-4 top-2/3 bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000 z-0"></div>
 
-        {/* <div className="absolute w-2/5 min-h-screen top-10 left-4  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-6000"></div> */}
-
-        {/* <div className="absolute w-2/5 min-h-screen top-0 left-24 bg-custom-color-four rounded-full mix-blend-multiply filter blur-2xl opacity-5 animate-blob animation-delay-4000"></div> */}
-
-        {/* <div className="absolute w-2/5 min-h-screen top-0 left-24 bg-custom-color-four rounded-full mix-blend-multiply filter blur-2xl opacity-10 animate-blob animation-delay-2000"></div> */}
-
         <div className="absolute w-2/5 h-32 top-80 left-14 bg-custom-color-eight rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-6000"></div>
-
-        {/* <div className="absolute w-2/5 min-h-screen top-8  left-14 bg-custom-color-seven rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div> */}
 
         <div className="absolute w-2/5 h-32 bottom-12 right-4 bg-custom-color-six rounded-full mix-blend-multiply filter  opacity-10 blur-2xl  animate-blob animation-delay-2000"></div>
 
-        {/* <div className="absolute w-2/5 min-h-screen top-18 right-4 bg-custom-color-five rounded-full mix-blend-multiply filter  opacity-25 blur-2xl  animate-blob animation-delay-4000"></div> */}
+        <div className="absolute w-2/5 min-h-screen top-18 bg-custom-color-eight rounded-full mix-blend-multiply filter  opacity-10 animate-blob blur-3xl animation-delay-2000"></div>
 
-        {/* <div className="absolute w-2/5 min-h-screen top-18 bg-custom-color-four rounded-full mix-blend-multiply filter  opacity-10  animate-blob blur-3xl animation-delay-6000"></div> */}
-
-        <div className="absolute w-2/5 min-h-screen top-18 bg-custom-color-eight rounded-full mix-blend-multiply filter  opacity-5  animate-blob blur-3xl animation-delay-2000"></div>
-
-        <div className="absolute w-2/5 min-h-screen top-18 right-12 w-96 h-96  bg-custom-color-six rounded-full mix-blend-multiply filter  opacity-10 blur-2xl  animate-blob animation-delay-6000"></div>
+        <div className="absolute w-2/5 min-h-screen top-18 right-12 w-96 h-96  bg-custom-color-six rounded-full mix-blend-multiply filter  opacity-20 blur-2xl  animate-blob animation-delay-6000"></div>
       </div>
 
       {/* End of Moving Background  */}
@@ -469,23 +584,29 @@ const Home = () => {
         id="about-feature"
         className="text-gray-600 body-font bg-custom-color-Three lg:pb-96"
       >
-        <div className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap ">
+        <div
+          className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap "
+          data-aos="fade-up-right"
+        >
           <div className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
             <img
               alt="feature"
               id="about-img"
-              className="object-cover object-center w-full pt-20 opacity-75 -rotate-1"
+              className="object-cover object-center w-full pt-20 opacity-90 -rotate-1"
               src="/images/19.png"
             />
           </div>
 
-          <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2  lg:pl-12 lg:text-left text-center ">
-            <div className="flex flex-col  lg:items-start items-center">
+          <div className="flex flex-col flex-wrap lg:py-6 -mb-10 md:pb-32 lg:w-1/2  lg:pl-12 lg:text-left text-center ">
+            <div
+              className="flex flex-col  lg:items-start items-center"
+              data-aos="zoom-in"
+            >
               <div className="flex-grow">
-                <h2 className="text-2xl text-custom-color-ten text-center lg:text-7xl title-font font-medium pt-12 mb-5">
+                <h2 className="text-2xl text-custom-color-ten opacity-90 text-center md:text-4xl lg:text-7xl title-font font-medium pb-24 md:pb-4 pt-12 mb-5 md:pt-24 ">
                   Business Development
                 </h2>
-                <p className="leading-relaxed text-base text-2xl">
+                <p className="leading-relaxed text-base  text-custom-color-ten text-2xl">
                   We build bespoke websites that help our clients streamline
                   their businesses and reach more people. We have extensive
                   experience building SEO optimised web presences that range
@@ -495,7 +616,7 @@ const Home = () => {
               </div>
               <div className="flex pt-5">
                 <button
-                  className="inline-flex text-white bg-green-300 border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg 
+                  className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg 
               "
                 >
                   Learn More
@@ -509,8 +630,8 @@ const Home = () => {
 
         {/* Start of testimonials */}
         <section className="text-gray-600 body-font lg:pt-44">
-          <div className="container px-5 pt-24 mx-auto">
-            <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
+          <div className="container px-5 pt-24 pb-12 md:pb-24 mx-auto">
+            <h1 className="text-3xl font-medium title-font text-custom-color-ten opacity-90 mb-12 text-center">
               Testimonials
             </h1>
             <div className="flex flex-wrap -m-4">

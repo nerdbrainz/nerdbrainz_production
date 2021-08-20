@@ -32,7 +32,7 @@ const Navbar = () => {
         <Link href="/">
           <img
             src="/images/Logo.png"
-            className="h-12 w-auto ml-6 mt-1"
+            className="h-20 w-auto ml-10 mt-1"
             alt=""
           />
         </Link>{" "}
@@ -61,30 +61,34 @@ const Navbar = () => {
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto md:mr-12 ">
-            {/* <Link href="/">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-1 font-bold items-center justify-center text-xl ">
+            <Link href="/">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-ten font-bold items-center justify-center text-xl opacity-90">
                 Home
               </a>
             </Link>
 
-            <Link href="/about">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-1 font-bold items-center justify-center text-xl">
-                About us
+            <Link href="/portfolio_page">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-ten font-bold items-center justify-center text-xl opacity-90">
+                The Vault
               </a>
-            </Link> */}
+            </Link>
 
-            {/* <Link href="/contact">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-1 font-bold items-center justify-center text-xl">
+            <Link href="/about">
+              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-ten font-bold items-center justify-center text-xl opacity-90">
+                About
+              </a>
+            </Link>
+
+            <Link href="/contact">
+              <a
+                href="/contact"
+                className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-ten font-bold items-center justify-center text-xl opacity-90"
+              >
                 Say Hello
               </a>
-            </Link> */}
-            {/* <Link href="/blogs">
-              <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-1 font-bold items-center justify-center text-xl">
-                Blog
-              </a>
-            </Link> */}
+            </Link>
           </div>
-          <SocialIcons />
+          {/* <SocialIcons /> */}
         </div>
       </nav>
     </>
