@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function MyApp({ Component, pageProps }) {
   const urlPath = useRouter().pathname;
-  console.log(urlPath);
+
   return (
     <>
       {!urlPath.includes("nerdbrainz_coffee") && <Navbar />}

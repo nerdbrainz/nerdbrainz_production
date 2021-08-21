@@ -6,11 +6,11 @@ import {
   faInstagram,
   faFacebook,
   faTwitter,
-  FaLinkedin,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 config.autoAddCss = false;
-library.add(faYoutube, faInstagram, faFacebook, faTwitter);
+library.add(faYoutube, faInstagram, faFacebook, faTwitter, faLinkedin);
 
 const SocialIcons = () => {
   return (

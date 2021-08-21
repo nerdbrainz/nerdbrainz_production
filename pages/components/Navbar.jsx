@@ -53,7 +53,7 @@ const Navbar = () => {
 
             <Link href="/portfolio_page">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-ten font-bold items-center justify-center text-xl opacity-90">
-                The Vault
+                Portfolio
               </a>
             </Link>
 
@@ -72,7 +72,7 @@ const Navbar = () => {
               </a>
             </Link>
           </div>
-          {/* <SocialIcons /> */}
+          <SocialIcons />
         </div>
       </nav>
     </>
