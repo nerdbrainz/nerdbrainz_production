@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -35,7 +36,7 @@ const Home = () => {
             </p>
 
             <div className="flex justify-center">
-              <a href="/information">
+              <a href="/information/information">
                 <button
                   className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg
               "
@@ -47,10 +48,12 @@ const Home = () => {
           </div>
 
           <div className="relative lg:max-w-5xl lg:w-full lg: md:w-1/2 w-5/6 z-50">
-            <img
+            <Image
               className="object-cover object-center rounded shadow-2xl "
               alt="hero"
               src="/static/images/14.png"
+              width={970}
+              height={485}
             />
           </div>
         </div>
@@ -65,14 +68,16 @@ const Home = () => {
         className="text-gray-600 body-font bg-custom-color-Three lg:pb-44"
         data-aos="fade-up"
       >
-        <a href="/information" target="_blank">
+        <a href="/information/information" target="_blank">
           <div className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap ">
             <div className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
-              <img
+              <Image
                 alt="feature"
                 id="about-img"
                 className="object-cover object-center w-full pt-12 opacity-90  "
                 src="/static/images/35.png"
+                width={748}
+                height={422}
               />
             </div>
 
@@ -110,7 +115,7 @@ const Home = () => {
           <div className="flex flex-wrap -mx-4 -mb-10 text-center">
             <div className="sm:w-1/3 mb-10 px-4">
               <div className="rounded-lg h-64 overflow-hidden">
-                <a href="/information-three" target="_blank">
+                <a href="/information/information-three" target="_blank">
                   <img
                     alt="content"
                     className="object-cover object-center h-full w-full"
@@ -132,7 +137,7 @@ const Home = () => {
             </div>
             <div className="sm:w-1/3 mb-10 px-4">
               <div className="rounded-lg h-64 overflow-hidden">
-                <a href="/information-four" target="_blank">
+                <a href="/information/information-four" target="_blank">
                   <img
                     alt="content"
                     className="object-cover object-center h-full w-full"
@@ -182,7 +187,11 @@ const Home = () => {
           data-aos="fade-up"
         >
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <a href="/information-two" target="_blank" className="cursor">
+            <a
+              href="/information/information-two"
+              target="_blank"
+              className="cursor"
+            >
               <img
                 className="object-cover object-center rounded  opacity-90 -rotate-1"
                 alt="hero"
@@ -195,7 +204,11 @@ const Home = () => {
             className="lg:flex-grow md:w-1/2 md:py-4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center 
           "
           >
-            <a href="/information-two" target="_blank" className="cursor">
+            <a
+              href="/information/information-two"
+              target="_blank"
+              className="cursor"
+            >
               <h1 className="title-font  sm:text-4xl  md:mr-8 text-3xl mb-4 font-medium text-custom-color-ten opacity-90">
                 Un-muddling UX and UI Design
               </h1>

@@ -66,9 +66,9 @@ const Navbar = () => {
             <Link href="/contact">
               <a
                 href="/contact"
-                className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-ten font-bold items-center justify-center text-xl opacity-90"
+                className="lg:inline-flex lg:w-auto w-full pl-3 py-2 rounded text-custom-color-ten font-bold items-center justify-center text-xl opacity-90"
               >
-                Say Hello
+                Contact
               </a>
             </Link>
           </div>

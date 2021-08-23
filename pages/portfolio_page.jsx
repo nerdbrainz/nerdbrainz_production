@@ -35,10 +35,10 @@ const PortfolioPage = () => {
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/static/images/aerial_coffee_shop.jpeg"
+                  src="/static/images/28.jpeg"
                 />
 
-                <a target="_blank" href="/nerdbrainz_coffee">
+                <a target="_blank" href="/">
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                       ClassNameic Static
@@ -65,9 +65,9 @@ const PortfolioPage = () => {
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/static/images/24.png"
+                  src="/static/images/25.png"
                 />
-                <a target="_blank" href="http://localhost:3000/">
+                <a target="_blank" href="/house_plants">
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                       E-Commerce
@@ -92,7 +92,7 @@ const PortfolioPage = () => {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src="/static/images/26.png"
                 />
-                <a target="_blank" href="http://localhost:3000/">
+                <a target="_blank" href="https://www.theyardbarber509.com">
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                       Service Provider
@@ -117,19 +117,21 @@ const PortfolioPage = () => {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src="/static/images/25.png"
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
-                    Shopify
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    E-Commerce
-                  </h1>
-                  <p className="leading-relaxed">
-                    We are a specialist shopify websites builder. We can build
-                    totally unique front end scalable sites with integrated
-                    shopify back ends
-                  </p>
-                </div>
+                <a href="/house_plants">
+                  <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
+                      Shopify
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      E-Commerce
+                    </h1>
+                    <p className="leading-relaxed">
+                      We are a specialist shopify websites builder. We can build
+                      totally unique front end scalable sites with integrated
+                      shopify back ends
+                    </p>
+                  </div>
+                </a>
               </div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4 " data-aos="zoom-in">
@@ -139,20 +141,22 @@ const PortfolioPage = () => {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src="/static/images/28.jpeg "
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six b-1">
-                    Blogs
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    We can create your blog
-                  </h1>
-                  <p className="leading-relaxed">
-                    We will work with you so you end up with an easy a
-                    beautifully functioning website blog that can be accessed by
-                    all devices.
-                    <br />
-                  </p>
-                </div>
+                <a href="https://www.theyardbarber509.com" target="_blank">
+                  <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six b-1">
+                      Blogs
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      We can create your blog
+                    </h1>
+                    <p className="leading-relaxed">
+                      We will work with you so you end up with an easy a
+                      beautifully functioning website blog that can be accessed
+                      by all devices.
+                      <br />
+                    </p>
+                  </div>
+                </a>
               </div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="zoom-out-left">
@@ -162,19 +166,21 @@ const PortfolioPage = () => {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src="/static/images/48.png"
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
-                    Service industries
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Reaching more people
-                  </h1>
-                  <p className="leading-relaxed">
-                    We can create a website that will allow for you to offer
-                    your services online with automated client billing. For one
-                    off sales and recurring billing
-                  </p>
-                </div>
+                <a href="/service">
+                  <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
+                      Service industries
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      Reaching more people
+                    </h1>
+                    <p className="leading-relaxed">
+                      We can create a website that will allow for you to offer
+                      your services online with automated client billing. For
+                      one off sales and recurring billing
+                    </p>
+                  </div>
+                </a>
               </div>
             </div>
           </div>

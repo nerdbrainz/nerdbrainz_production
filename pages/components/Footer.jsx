@@ -15,7 +15,7 @@ const Footer = () => {
             >
               Powered by{" "}
               <img
-                src="/static/images/logo.png"
+                src="/static/images/nb_logo.png"
                 alt="NERDBRAiNZ"
                 className="h-16 ml-2"
               />

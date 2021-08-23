@@ -27,7 +27,7 @@ const Meta = (props) => (
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/png" href="/static/images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico" />
     <link rel="apple-touch-icon" href="/static/images/favicon.ico" />
     <link
       rel="stylesheet"

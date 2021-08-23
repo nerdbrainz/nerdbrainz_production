@@ -36,10 +36,42 @@ module.exports = {
 
         // Red/pink
         "custom-color-eleven": "#ec4067",
+        // Coffee colors
         "custom-tan": "#c7a17a",
         "custom-black-light": "#191919",
         "custom-black-dark": "#121315",
         "custom-black-mid": "#1c1c1c",
+        // plants custom colors
+        "plants-custom-color-one": "#FFFFFF",
+        "plants-custom-color-Two": "#262121",
+        "plants-custom-color-Three": "#81A284",
+        "plants-custom-color-four": "#f0f8ff",
+        "plants-custom-color-five": "#ccccff",
+        "plants-custom-color-six": "#dddddd",
+        "plants-custom-color-seven": "#11eeff",
+        // ganly colors
+        "custom-color-1": "#436FEF",
+        "custom-color-2": "#24A8F6",
+        "custom-color-3": "#03E5FE",
+      },
+      screens: {
+        xs: "480px",
+        // => @media (min-width: 480px) { ... }
+
+        sm: "480px",
+        // => @media (min-width: 640px) { ... }
+
+        md: "768px",
+        // => @media (min-width: 768px) { ... }
+
+        lg: "1024px",
+        // => @media (min-width: 1024px) { ... }
+
+        xl: "1280px",
+        // => @media (min-width: 1280px) { ... }
+
+        "2xl": "1536px",
+        // => @media (min-width: 1536px) { ... }
       },
 
       animation: {
