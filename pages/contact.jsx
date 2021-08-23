@@ -1,8 +1,8 @@
- import Meta from './components/partials/Meta'
-
+import Meta from "./components/partials/Meta";
+const Contact = () => {
   return (
     <>
-    <Meta
+      <Meta
         title="Contact | Get in touch with Nerd Brainz today to handle all your web development, design, SEO and online marketing needs. We specialize in bringing your small and medium business online with custom static and e-commerce solutions."
         desc="Nerd Brainz is here to help you with all your web development, web design and SEO needs. We can help you create a brilliant marketing and advertising strategy online and through social media that will give your company a leg up in the ever increasing online market place. Get in touch with us today."
       />
@@ -35,7 +35,6 @@
                       name="name"
                       placeholder="Name"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                       
                     />
                   </div>
                 </div>
@@ -52,7 +51,6 @@
                       id="email"
                       name="email"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                       
                     />
                   </div>
                 </div>
@@ -69,7 +67,7 @@
                       id="subject"
                       name="subject"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                     />
+                    />
                   </div>
                 </div>
                 <div className="p-2 w-full">
@@ -84,13 +82,11 @@
                       id="message"
                       name="message"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                     ></textarea>
+                    ></textarea>
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button
-                    className="flex mx-auto text-white bg-custom-color-six border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-                   >
+                  <button className="flex mx-auto text-white bg-custom-color-six border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                     Button
                   </button>
                 </div>
