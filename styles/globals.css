@@ -1,16 +1,6 @@
-@layer utilities {
-  .animation-delay-2000 {
-    animation-delay: 6s;
-  }
-
-  .animation-delay-4000 {
-    animation-delay: 8s;
-  }
-
-  .animation-delay-6000 {
-    animation-delay: 10s;
-  }
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* And other global styles here */
 .menu-hero-image {

@@ -5,8 +5,8 @@ const Footer = () => {
         className=" flex items-center justify-center w-full h-36 border-t bg-custom-color-one pb-8
       "
       >
-        <div class="flex flex-wrap -mx-1 mt-8 overflow-hidden">
-          <div class="w-full overflow-hidden">
+        <div className="flex flex-wrap -mx-1 mt-8 overflow-hidden">
+          <div className="w-full overflow-hidden">
             <a
               className="flex items-center justify-center"
               href="https://www.nerdbrainz.com"
@@ -15,14 +15,14 @@ const Footer = () => {
             >
               Powered by{" "}
               <img
-                src="/images/logo.png"
+                src="/static/images/nb_logo.png"
                 alt="NERDBRAiNZ"
                 className="h-16 ml-2"
               />
             </a>
           </div>
 
-          <div class="mt-1 mb-4 ml-36 w-full overflow-hidden opacity-50">
+          <div className="mt-1 mb-4 ml-36 w-full overflow-hidden opacity-50">
             <div className="inline-flex">
               <a
                 className="text-custom-color-five"
@@ -31,9 +31,9 @@ const Footer = () => {
               >
                 <svg
                   fill="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
@@ -47,9 +47,9 @@ const Footer = () => {
               >
                 <svg
                   fill="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
@@ -64,9 +64,9 @@ const Footer = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
@@ -75,17 +75,17 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                class="ml-3 text-custom-color-five cursor-pointer"
+                className="ml-3 text-custom-color-five cursor-pointer"
                 href="https://www.linkedin.com/company/nerd-brainz/about/?viewAsMember=true"
                 target="_blank"
               >
                 <svg
                   fill="currentColor"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="0"
-                  class="w-5 h-5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="0"
+                  className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
                   <path
