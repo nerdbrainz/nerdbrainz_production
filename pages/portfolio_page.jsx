@@ -17,7 +17,6 @@ const PortfolioPage = () => {
         title="Portfolio | Nerd Brainz portfolio has some of our live sites and templates that we want to share with the world. We have many more and can create any custom static website, blog or e-commerce site for our customers"
         desc="Nerd Brainz portfolio is here so cusomers can get an idea of what purchasing a site from us will get them.We have many sites coming on line every week as we continue to serve our customers and build custom websites for them, we have linked a few of them here. Browse our websites and get an idea of how you would like your online presence to look with a custom website for you business built by Nerd Brainz."
       />
-
       <section>
         {/* Start first row of cards */}
         <section className="text-gray-600 body-font bg-custom-color-one">
@@ -45,10 +44,10 @@ const PortfolioPage = () => {
                   <img
                     alt="gallery"
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/28.jpeg"
+                    src="/static/images/5.png"
                   />
 
-                  <a target="_blank" href="/">
+                  <a target="_blank" href="http://localhost:3000/">
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                       <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                         ClassNameic Static
@@ -75,9 +74,9 @@ const PortfolioPage = () => {
                   <img
                     alt="gallery"
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/25.png"
+                    src="/static/images/24.png"
                   />
-                  <a target="_blank" href="/house_plants">
+                  <a target="_blank" href="http://localhost:3000/">
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                       <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                         E-Commerce
@@ -102,7 +101,7 @@ const PortfolioPage = () => {
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/26.png"
                   />
-                  <a target="_blank" href="https://www.theyardbarber509.com">
+                  <a target="_blank" href="http://localhost:3000/">
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                       <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                         Service Provider
@@ -127,32 +126,28 @@ const PortfolioPage = () => {
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/25.png"
                   />
-                  <a href="/house_plants">
-                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                      <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
-                        Shopify
-                      </h2>
-                      <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                        E-Commerce
-                      </h1>
-                      <p className="leading-relaxed">
-                        We are a specialist shopify websites builder. We can
-                        build totally unique front end scalable sites with
-                        integrated shopify back ends
-                      </p>
-                    </div>
-                  </a>
+                  <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
+                      Shopify
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      E-Commerce
+                    </h1>
+                    <p className="leading-relaxed">
+                      We are a specialist shopify websites builder. We can build
+                      totally unique front end scalable sites with integrated
+                      shopify back ends
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="lg:w-1/3 sm:w-1/2 p-4  1`rewq9" data-aos="zoom-in">
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/static/images/28.jpeg "
-                />
-                <a href="https://www.theyardbarber509.com" target="_blank">
+              <div className="lg:w-1/3 sm:w-1/2 p-4 " data-aos="zoom-in">
+                <div className="flex relative">
+                  <img
+                    alt="gallery"
+                    className="absolute inset-0 w-full h-full object-cover object-center"
+                    src="/static/images/28.jpeg "
+                  />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six b-1">
                       Blogs
@@ -167,7 +162,7 @@ const PortfolioPage = () => {
                       <br />
                     </p>
                   </div>
-                </a>
+                </div>
               </div>
               <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="zoom-out-left">
                 <div className="flex relative">
@@ -176,21 +171,19 @@ const PortfolioPage = () => {
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/48.png"
                   />
-                  <a href="/service">
-                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                      <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
-                        Service industries
-                      </h2>
-                      <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                        Reaching more people
-                      </h1>
-                      <p className="leading-relaxed">
-                        We can create a website that will allow for you to offer
-                        your services online with automated client billing. For
-                        one off sales and recurring billing
-                      </p>
-                    </div>
-                  </a>
+                  <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
+                      Service industries
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      Reaching more people
+                    </h1>
+                    <p className="leading-relaxed">
+                      We can create a website that will allow for you to offer
+                      your services online with automated client billing. For
+                      one off sales and recurring billing
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -215,7 +208,7 @@ const PortfolioPage = () => {
                     the shelf template?
                   </p>
                   <a
-                    href="/information/information_one"
+                    href="/information"
                     target="_blank"
                     className="text-custom-color-six inline-flex items-center"
                   >
@@ -224,10 +217,10 @@ const PortfolioPage = () => {
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      strokeWidth="2"
+                      stroke-width="2"
                       fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                     >
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
@@ -238,10 +231,10 @@ const PortfolioPage = () => {
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
-                      strokeWidth="2"
+                      stroke-width="2"
                       fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
@@ -253,10 +246,10 @@ const PortfolioPage = () => {
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
-                      strokeWidth="2"
+                      stroke-width="2"
                       fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
@@ -282,7 +275,7 @@ const PortfolioPage = () => {
                     Interface and do I need to think about it?
                   </p>
                   <a
-                    href="/information/information-two"
+                    href="/information-two"
                     target="_blank"
                     className="text-custom-color-six inline-flex items-center"
                   >
@@ -291,10 +284,10 @@ const PortfolioPage = () => {
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      strokeWidth="2"
+                      stroke-width="2"
                       fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                     >
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
@@ -305,10 +298,10 @@ const PortfolioPage = () => {
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
-                      strokeWidth="2"
+                      stroke-width="2"
                       fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
@@ -320,10 +313,10 @@ const PortfolioPage = () => {
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
-                      strokeWidth="2"
+                      stroke-width="2"
                       fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
@@ -341,7 +334,6 @@ const PortfolioPage = () => {
                   {/* <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                   CATEGORY
                 </h2> */}
-
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                     What Website is right for me
                   </h1>
@@ -349,20 +341,16 @@ const PortfolioPage = () => {
                     How do I know what website I need and will those criteria
                     still be relevant for me in the future
                   </p>
-                  <a
-                    className="text-custom-color-six inline-flex items-center"
-                    href="/information-five"
-                    target="_blank"
-                  >
+                  <a className="text-custom-color-six inline-flex items-center">
                     Learn More
                     <svg
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      strokeWidth="2"
+                      stroke-width="2"
                       fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                     >
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
@@ -373,10 +361,10 @@ const PortfolioPage = () => {
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
-                      strokeWidth="2"
+                      stroke-width="2"
                       fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
@@ -388,10 +376,10 @@ const PortfolioPage = () => {
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
-                      strokeWidth="2"
+                      stroke-width="2"
                       fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
@@ -417,14 +405,14 @@ const PortfolioPage = () => {
 
         {/*Start of Moving Background */}
         <section>
-          <div className="ml-44">
-            <div className="absolute w-3/5 h-32 top-1/3 left-1/4  bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-20  animate-blob animation-delay-2000 z-0 "></div>
+          <div classNameName="ml-44">
+            <div classNameName="absolute w-3/5 h-32 top-1/3 left-1/4  bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-20  animate-blob animation-delay-2000 z-0 "></div>
 
-            <div className="absolute w-3/5 h-24 top-2/3 left-80  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-30  animate-blob animation-delay-6000"></div>
+            <div classNameName="absolute w-3/5 h-24 top-2/3 left-80  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-30  animate-blob animation-delay-6000"></div>
 
-            <div className="absolute w-3/5 h-24 top-1/2 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+            <div classNameName="absolute w-3/5 h-24 top-1/2 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
 
-            <div className="absolute w-3/5 h-24 bottom-1/4 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+            <div classNameName="absolute w-3/5 h-24 bottom-1/4 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
           </div>
 
           {/* End of Moving Background  */}

@@ -2,6 +2,8 @@ import Head from "next/head";
 const Meta = (props) => (
   <Head>
     <title>Nerd Brainz | {props.title}</title>
+    <html lang="en" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charSet="UTF-8" />
     <meta name="description" content={props.desc} />
