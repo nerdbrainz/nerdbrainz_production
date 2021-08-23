@@ -1,5 +1,6 @@
 import HousePlantNavbar from "../components/HousePlantNavbar";
 import HousePlantFooter from "../components/HousePlantFooter";
+import Meta from "../components/partials/Meta";
 const contact = () => {
   return (
     <>
