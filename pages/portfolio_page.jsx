@@ -153,7 +153,6 @@ const PortfolioPage = () => {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src="/static/images/28.jpeg "
                 />
-<<<<<<< Updated upstream
                 <a href="https://www.theyardbarber509.com" target="_blank">
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six b-1">
@@ -170,48 +169,6 @@ const PortfolioPage = () => {
                     </p>
                   </div>
                 </a>
-=======
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six b-1">
-                    Blogs
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    We can create your blog
-                  </h1>
-                  <p className="leading-relaxed">
-                    We will work with you create a beautiful accessible and
-                    functioning SEO optimized site that is viewable on all
-                    devices and can be scaled up with your companies growth.
-                    <br />
-                  </p>
-                </div>
->>>>>>> Stashed changes
-=======
-              <div className="lg:w-1/3 sm:w-1/2 p-4 " data-aos="zoom-in">
-                <div className="flex relative">
-                  <img
-                    alt="gallery"
-                    className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/28.jpeg "
-                  />
-                  <a href="https://www.theyardbarber509.com" target="_blank">
-                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                      <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six b-1">
-                        Blogs
-                      </h2>
-                      <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                        We can create your blog
-                      </h1>
-                      <p className="leading-relaxed">
-                        We will work with you so you end up with an easy a
-                        beautifully functioning website blog that can be
-                        accessed by all devices.
-                        <br />
-                      </p>
-                    </div>
-                  </a>
-                </div>
->>>>>>> Stashed changes
               </div>
               <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="zoom-out-left">
                 <div className="flex relative">
