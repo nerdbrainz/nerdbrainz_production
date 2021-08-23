@@ -15,8 +15,8 @@ const Home = () => {
   return (
     <div className="App bg-custom-color-one ">
       <Meta
-        title="Home"
-        desc="Nerbrainz is the best web development company in the world."
+        title="Home | Web development company specializing in Shopify E-commerce and marketing and advertising for small and medium size businesses."
+        desc="Nerd Brainz isa web development company employing developers and designers that specialize in helping small and medium size businesses. Nerd Brainz specialize in helping small to medium size businesses improve their marketing and advertising by giving them access to the global economy. Nerd Brainz are e-commerce specialists and have a knack for social media management, marketing and advertising. Nerd Brainz can handle all things to do with building your website, maintaining it and giving bringing your products to the web with a brillian marketing and advertising strategy."
       />
       {/* START OF with SECTION call-to-action-button  */}
       <section className="text-gray-600 body-font sm:pt-8 lg:pt-8 mx-12 z-50 ">

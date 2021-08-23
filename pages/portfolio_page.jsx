@@ -205,7 +205,7 @@ const PortfolioPage = () => {
                   shelf template?
                 </p>
                 <a
-                  href="/information"
+                  href="/information/information_one"
                   target="_blank"
                   className="text-custom-color-six inline-flex items-center"
                 >
@@ -272,7 +272,7 @@ const PortfolioPage = () => {
                   Interface and do I need to think about it?
                 </p>
                 <a
-                  href="/information-two"
+                  href="/information/information-two"
                   target="_blank"
                   className="text-custom-color-six inline-flex items-center"
                 >
