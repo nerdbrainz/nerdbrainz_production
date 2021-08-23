@@ -26,10 +26,15 @@ const Meta = (props) => (
       name="og:image:alt"
       content="NerdBrainz logo for nerdbrainz.com web development and web design company."
     />
+    <meta property="og:image" content="/static/images/nb_logo.png" />
     <meta name="twitter:title" content="NerdBrainz LLC" />
     <meta name="twitter:description" content={props.desc} />
     <meta name="twitter:site" content="" />
     <meta name="twitter:creator" content="@nerd_brainz" />
+
+    <meta name="twitter:image" content="/static/images/nb_logo.png" />
+    <link rel="canonical" href="https://www.nerdbrainz.com" />
+    <meta name="robots" content="index" follow />
     {/* Raleway fonts.google */}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
@@ -50,10 +55,6 @@ const Meta = (props) => (
       crossOrigin="anonymous"
       referrerPolicy="no-referrer"
     />
-    <meta property="og:image" content="/static/images/nb_logo.png" />
-    <meta name="twitter:image" content="/static/images/nb_logo.png" />
-    <link rel="canonical" href="https://www.nerdbrainz.com" />
-    <meta name="robots" content="index" follow />
   </Head>
 );
 export default Meta;
