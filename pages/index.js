@@ -16,7 +16,7 @@ const Home = () => {
     <div className="App bg-custom-color-one ">
       <Meta
         title="Home | Web development company specializing in Shopify E-commerce and marketing and advertising for small and medium size businesses."
-        desc="Nerd Brainz isa web development company employing developers and designers that specialize in helping small and medium size businesses. Nerd Brainz specialize in helping small to medium size businesses improve their marketing and advertising by giving them access to the global economy. Nerd Brainz are e-commerce specialists and have a knack for social media management, marketing and advertising. Nerd Brainz can handle all things to do with building your website, maintaining it and giving bringing your products to the web with a brillian marketing and advertising strategy."
+        desc="Nerd Brainz is a web development company employing developers and designers that specialize in helping small and medium size businesses. Nerd Brainz specializes in helping small to medium size businesses improve their marketing and advertising by giving them access to the global economy. Nerd Brainz are e-commerce specialists and have a knack for social media management, marketing and advertising. Nerd Brainz can handle all things to do with building your website, maintaining it and  bringing your products to the web with a brilliant marketing and advertising strategy. We build with Wordpress, magento, shopify, react, and nextjs and are able to help with all your web development needs."
       />
       {/* START OF with SECTION call-to-action-button  */}
       <section className="text-gray-600 body-font sm:pt-8 lg:pt-8 mx-12 z-50 ">
@@ -36,7 +36,7 @@ const Home = () => {
             </p>
 
             <div className="flex justify-center">
-              <a href="/information/information">
+              <a href="/information/information_one">
                 <button
                   className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg
               "
@@ -68,7 +68,7 @@ const Home = () => {
         className="text-gray-600 body-font bg-custom-color-Three lg:pb-44"
         data-aos="fade-up"
       >
-        <a href="/information/information" target="_blank">
+        <a href="/information/information_five" target="_blank">
           <div className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap ">
             <div className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
               <Image
@@ -126,7 +126,7 @@ const Home = () => {
             </div>
             <div className="sm:w-1/3 mb-10 px-4">
               <div className="rounded-lg h-64 overflow-hidden">
-                <a href="" target="_blank">
+                <a href="/information/information_six" target="_blank">
                   <img
                     alt="content"
                     className="object-cover object-center h-full w-full"
@@ -607,12 +607,14 @@ const Home = () => {
           data-aos="fade-up-right"
         >
           <div className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
-            <img
-              alt="feature"
-              id="about-img"
-              className="object-cover object-center w-full pt-20 opacity-90 -rotate-1"
-              src="/static/images/19.png"
-            />
+            <a href="/information/information_seven">
+              <img
+                alt="feature"
+                id="about-img"
+                className="object-cover object-center w-full pt-20 opacity-90 -rotate-1"
+                src="/static/images/19.png"
+              />
+            </a>
           </div>
 
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 md:pb-32 lg:w-1/2  lg:pl-12 lg:text-left text-center ">

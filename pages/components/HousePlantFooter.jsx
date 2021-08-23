@@ -11,7 +11,11 @@ const Navbar = () => {
   return (
     <>
       <nav className="flex items-center flex-wrap p-3 mt-8">
-        <a href="/" className="inline-flex items-center p-2 mr-4 ">
+        <a
+          rel="noreferrer"
+          href="/"
+          className="inline-flex items-center p-2 mr-4 "
+        >
           <span className="text-xl text-custom-color-Two font-bold uppercase tracking-wide">
             NERDBRAiNZ
           </span>
@@ -44,13 +48,14 @@ const Navbar = () => {
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
             <a
+              rel="noreferrer"
               href="/"
               className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-Two font-bold items-center justify-center hover:bg-custom-color-Three hover:text-white "
             >
               Home
             </a>
 
-            {/* <a
+            {/* <a rel="noreferrer"
               href="/"
               className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-Two  font-bold items-center justify-center hover:bg-custom-color-Three hover:text-white"
             >
@@ -58,6 +63,7 @@ const Navbar = () => {
             </a> */}
 
             <a
+              rel="noreferrer"
               href="/about"
               className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-Two font-bold items-center justify-center hover:bg-custom-color-Three hover:text-white"
             >
@@ -65,6 +71,7 @@ const Navbar = () => {
             </a>
 
             <a
+              rel="noreferrer"
               href="/contact"
               className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-custom-color-Two  font-bold items-center justify-center hover:bg-custom-color-Three hover:text-white"
             >

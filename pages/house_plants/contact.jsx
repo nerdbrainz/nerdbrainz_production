@@ -3,6 +3,10 @@ import HousePlantFooter from "../components/HousePlantFooter";
 const contact = () => {
   return (
     <>
+      <Meta
+        title="Contact | Nerd Brainz House Plants Contact page is an example of how to give customers a portal to reach out to a company through the internet. Contact pages are a great way to share a companies contact information with the world and allow customers to interact easily."
+        description="Nerd Brainz House Plants Contact page is a great example of what Nerd Brainz builds for customer outreach to a small or medium sized company. With great UX / UI design a company can create attractive contact pages that share all of the details of a company and how they can be contacted easily. Contact pages are customizable and can easily be created in a way that is unique for a customer with Nerd Brainz custom websites and templates."
+      />
       <HousePlantNavbar />
       <section className="text-black body-font relative">
         <img

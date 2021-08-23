@@ -19,7 +19,7 @@ const SocialIcons = () => {
         <a
           className="text-custom-color-1 "
           href="https://www.facebook.com/Nerd-Brainz-102671178793220"
-          rel="noopener"
+          rel="noreferrer"
           target="_blank"
         >
           <FontAwesomeIcon
@@ -31,7 +31,7 @@ const SocialIcons = () => {
       <li>
         <a
           href="https://twitter.com/BrainzNerd"
-          rel="noopener"
+          rel="noreferrer"
           target="_blank"
           className="text-blue-500"
         >
@@ -44,7 +44,7 @@ const SocialIcons = () => {
       <li>
         <a
           href="https://www.linkedin.com/company/nerd-brainz/about/?viewAsMember=true"
-          rel="noopener"
+          rel="noreferrer"
           target="_blank"
         >
           <FontAwesomeIcon
@@ -57,7 +57,7 @@ const SocialIcons = () => {
       <li>
         <a
           href="https://www.instagram.com/nerd_brainz/"
-          rel="noopener"
+          rel="noreferrer"
           target="_blank"
         >
           <FontAwesomeIcon

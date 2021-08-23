@@ -1,5 +1,10 @@
+import Meta from '../components/partials/Meta'
 const informationThree = () => {
-  return (
+  return <>
+  <Meta
+        title="What is an Static Site and why it can be the perfect solution for your small or medium sized business to get its face on the internet and start interacting with customers, clients and fans online."
+        desc="Static websites are marketing and landing pages that allow businesses and people to get their message online for the rest of the world to see. When building a static site a company is often looking to either put up a simple web presence or to save money and still be able to be a part of the online community. Static sites can have blogs and features of other websites but are often smaller starter websites or where a company just needs a simple web presence to display a product or face of a business."
+      />
     <section
       className=" body-font bg-custom-color-one min-h-full opacity-90
     "
@@ -167,6 +172,7 @@ const informationThree = () => {
 
       {/* End of Moving Background  */}
     </section>
+    </>
   );
 };
 

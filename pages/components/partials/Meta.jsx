@@ -3,7 +3,7 @@ const Meta = (props) => (
   <Head>
     <title>Nerd Brainz | {props.title}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="UTF-8" />
+    <meta charSet="UTF-8" />
     <meta name="description" content={props.desc} />
     <meta property="og:type" content="website" />
     <meta
@@ -34,7 +34,7 @@ const Meta = (props) => (
 
     <meta name="twitter:image" content="/static/images/nb_logo.png" />
     <link rel="canonical" href="https://www.nerdbrainz.com" />
-    <meta name="robots" content="index" follow />
+    <meta name="robots" content="index" follow="true" />
     {/* Raleway fonts.google */}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link

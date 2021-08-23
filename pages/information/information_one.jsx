@@ -3,9 +3,8 @@ const information = () => {
   return (
     <>
       <Meta
-        title="Information_One"
-        desc="Information one description
-        "
+        title="What you need to know when buying a custom website and why it could be the perfect addition to your small or medium size business."
+        desc="When buying a custom website there are many things that need to be taken into account and optimized for the customer to get a high quality website and pay to much. A custom website give a business owner or creator the ability to play a huge role in designing their website. Every brand has the opportunity to be unique and stand out from the rest and a custom website can allow small and medium size companies to differentiate themselves from the competition with a custom design and features that no other site has."
       />
       <section
         className=" body-font bg-custom-color-one min-h-full opacity-90

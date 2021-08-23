@@ -1,9 +1,13 @@
 import HousePlantNavbar from "../components/HousePlantNavbar";
 import HousePlantFooter from "../components/HousePlantFooter";
-
+import Meta from "../components/partials/Meta";
 const about = () => {
   return (
     <>
+      <Meta
+        title="About | Nerd Brainz House Plants About is an example page that displays how a company should tell their story to their customers. An about page allows a web site owner to give a truly personal and unique explanation of who they are to their customers."
+        description="Nerd Brainz House Plants About page is simple but effective at displaying a message to a customer that visits your companies website. It allows for a custom and thorough explanation of a companies ethos and mission statement while displaying a beautiful background image to warm your customers up to your brand. This allows small and medium sized companies to interact with their customers in a way that emphasizes who they are. With a custom or e-commerce website from Nerd Brainz web development team you can easily tell your customers what you are all about as a company."
+      />
       <HousePlantNavbar />
       <section
         className="text-black body-font bg-plants-custom-color-one min-h-full opacity-90

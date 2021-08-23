@@ -7,8 +7,8 @@ const News = () => {
       <CoffeeNavbar />
       <div className="bg-yellow-50">
         <Meta
-          title="Menu"
-          description="Nerd Brainz coffee goes straight to the brain to create an effect that is long lasting and can motivate you to get out of bed in the morning"
+          title="News | Nerd Brainz Coffee News is a sample of what a company can do to improve their web presence and attract customers by creating their own content online and creating blogs or informational pages that can help their customers interact with their products and company while at the sametime boosting their SEO"
+          description="Nerd Brainz Coffee News is a great example of how to use useful information and content to reach customers to improve SEO and help customers interact with a company online. Intelligent keywords and SEO optimization will help small and medium size businesses improve their market share and writing blog posts and creating useful resources for your customers is one of the best ways to do it."
         />
         {/* Start Hero Section */}
         <section className="text-gray-600  body-font flex w-full">

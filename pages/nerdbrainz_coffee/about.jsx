@@ -7,8 +7,8 @@ const About = () => {
       <CoffeeNavbar />
       <section className="text-gray-600 body-font">
         <Meta
-          title="Menu"
-          description="Nerd Brainz coffee goes straight to the brain to create an effect that is long lasting and can motivate you to get out of bed in the morning"
+          title="About | Nerd Brainz Coffee About is an example page that displays how a company should tell their story to their customers. An about page allows a web site owner to give a truly personal and unique explanation of who they are to their customers."
+          description="Nerd Brainz Coffee About page is simple but effective at displaying a message to a customer that visits your companies website. It allows for a custom and thorough explanation of a companies ethos and mission statement. This allows small and medium sized companies to interact with their customers in a way that emphasizes who they are. With a custom or e-commerce website from Nerd Brainz web development team you can easily tell your customers what you are all about as a company."
         />
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">

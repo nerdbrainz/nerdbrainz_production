@@ -1,9 +1,14 @@
 import HousePlantNavbar from "../components/HousePlantNavbar";
 import HousePlantFooter from "../components/HousePlantFooter";
+import Meta from "../components/partials/Meta";
 
 export default function HousePlantsHome() {
   return (
     <>
+      <Meta
+        title="Nerd Brainz House Plants | Nerd Brainz House Plants is a template that could have for your House Plants shops website. We can create custom sites for you House Plants shop or small/medium sized business"
+        desc="Nerd Brainz offers sites for small and medium sized businesses that are seeking to have a presence or sell online. We offer simple marketing pages that can be used to show your business off in addtion to full scale e-commerce sites that will allow you to sell items for takeout, delivery and even online where you can ship your itemns all over the world."
+      />
       <HousePlantNavbar />
       <section className="bg-plants-custom-color-one min-w-full lg:mr-0">
         {/* Start of hero 1 */}

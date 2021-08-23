@@ -8,6 +8,7 @@ const Footer = () => {
         <div className="flex flex-wrap -mx-1 mt-8 overflow-hidden">
           <div className="w-full overflow-hidden">
             <a
+              rel="noreferrer"
               className="flex items-center justify-center"
               href="https://www.nerdbrainz.com"
               target="_blank"
@@ -25,6 +26,7 @@ const Footer = () => {
           <div className="mt-1 mb-4 ml-36 w-full overflow-hidden opacity-50">
             <div className="inline-flex">
               <a
+                rel="noreferrer"
                 className="text-custom-color-five"
                 href="https://www.facebook.com/Nerd-Brainz-102671178793220"
                 target="_blank"
@@ -41,6 +43,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
+                rel="noreferrer"
                 className="ml-4 text-custom-color-five"
                 href="https://twitter.com/BrainzNerd"
                 target="_blank"
@@ -57,6 +60,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
+                rel="noreferrer"
                 className="ml-4 text-custom-color-five"
                 href="https://www.instagram.com/nerd_brainz/"
                 target="_blank"
@@ -75,6 +79,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
+                rel="noreferrer"
                 className="ml-3 text-custom-color-five cursor-pointer"
                 href="https://www.linkedin.com/company/nerd-brainz/about/?viewAsMember=true"
                 target="_blank"
