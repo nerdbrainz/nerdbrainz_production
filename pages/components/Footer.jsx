@@ -1,3 +1,5 @@
+import Link from "next/dist/client/link";
+import Image from "next/image";
 const Footer = () => {
   return (
     <>
@@ -7,27 +9,25 @@ const Footer = () => {
       >
         <div className="flex flex-wrap -mx-1 mt-8 overflow-hidden">
           <div className="w-full overflow-hidden">
-            <a
-              rel="noreferrer"
-              className="flex items-center justify-center"
-              href="https://www.nerdbrainz.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Powered by{" "}
-              <img
-                src="/static/images/nb_logo.png"
-                alt="NERDBRAiNZ"
-                className="h-16 ml-2"
-              />
-            </a>
+            <Link href="/">
+              <a className="flex items-center justify-center">
+                Powered by{" "}
+                <Image
+                  src="/static/images/nb_logo.png"
+                  alt="NERDBRAiNZ"
+                  className="h-16 ml-2"
+                  width={64}
+                  height={64}
+                />
+              </a>
+            </Link>
           </div>
 
           <div className="mt-1 mb-4 ml-36 w-full overflow-hidden opacity-50">
             <div className="inline-flex">
               <a
                 rel="noreferrer"
-                className="text-custom-color-five"
+                className="text-custom-color-five facebook-social-link"
                 href="https://www.facebook.com/Nerd-Brainz-102671178793220"
                 target="_blank"
               >
@@ -44,7 +44,7 @@ const Footer = () => {
               </a>
               <a
                 rel="noreferrer"
-                className="ml-4 text-custom-color-five"
+                className="ml-4 text-custom-color-five twitter-social-link"
                 href="https://twitter.com/BrainzNerd"
                 target="_blank"
               >
@@ -61,7 +61,7 @@ const Footer = () => {
               </a>
               <a
                 rel="noreferrer"
-                className="ml-4 text-custom-color-five"
+                className="ml-4 text-custom-color-five instagram-social-link"
                 href="https://www.instagram.com/nerd_brainz/"
                 target="_blank"
               >
@@ -80,7 +80,7 @@ const Footer = () => {
               </a>
               <a
                 rel="noreferrer"
-                className="ml-3 text-custom-color-five cursor-pointer"
+                className="ml-3 text-custom-color-five cursor-pointer linkedin-social-link"
                 href="https://www.linkedin.com/company/nerd-brainz/about/?viewAsMember=true"
                 target="_blank"
               >

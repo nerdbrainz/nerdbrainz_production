@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import Head from "next/head";
 import SocialIcons from "./SocialIcons";
@@ -14,10 +15,12 @@ const Navbar = () => {
     <>
       <nav className="flex items-center flex-wrap p-3 w-screen bg-custom-color-one sm:pt-8 sm:pr-8 md:pr-8 lg:pt-24">
         <Link href="/">
-          <img
+          <Image
             src="/static/images/Logo.png"
             className="h-20 w-auto ml-10 mt-1 cursor-pointer"
             alt=""
+            width={80}
+            height={80}
           />
         </Link>{" "}
         <button

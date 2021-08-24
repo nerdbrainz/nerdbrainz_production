@@ -628,12 +628,11 @@ const Home = () => {
                   </p>
                 </div>
                 <div className="flex pt-5">
-                  <button
-                    className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg 
-              "
-                  >
-                    Learn More
-                  </button>
+                  <Link href="/">
+                    <button className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg">
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
