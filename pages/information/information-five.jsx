@@ -1,14 +1,12 @@
-const informationFive = () => {
+import Meta from "../components/partials/Meta";
+const InformationFive = () => {
   return (
     <>
       <Meta
         title="Put a title here  | REPLACE THIS NO MORE THAN 55-60 words => Our information index is a collection of items that seeks to educate our customers about the many different facets of purchasing web design, web development and SEO services.<="
         desc="No More than 150-160 words here"
       />
-      <section
-        className=" body-font bg-custom-color-one min-h-full opacity-90
-    "
-      >
+      <section className=" body-font bg-custom-color-one min-h-full opacity-90">
         <div className="container mx-auto flex px-5 pt-24  md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0">
             <img
@@ -200,4 +198,4 @@ const informationFive = () => {
   );
 };
 
-export default informationFive;
+export default InformationFive;
