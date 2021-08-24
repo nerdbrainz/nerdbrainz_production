@@ -15,14 +15,16 @@ const Navbar = () => {
     <>
       <nav className="flex items-center flex-wrap p-3 w-screen bg-custom-color-one sm:pt-8 sm:pr-8 md:pr-8 lg:pt-24">
         <Link href="/">
-          <Image
-            src="/static/images/Logo.png"
-            className="h-20 w-auto ml-10 mt-1 cursor-pointer"
-            alt=""
-            width={80}
-            height={80}
-          />
-        </Link>{" "}
+          <a>
+            <Image
+              src="/static/images/Logo.png"
+              className="h-20 w-auto ml-10 mt-1 cursor-pointer"
+              alt=""
+              width={80}
+              height={80}
+            />
+          </a>
+        </Link>
         <button
           className=" inline-flex p-3  rounded lg:hidden text-custom-color-1 ml-auto hover:text-custom-color-1 outline-none"
           onClick={handleClick}
