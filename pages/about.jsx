@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import Meta from "./components/partials/Meta";
 const about = () => {
   return (
@@ -13,10 +15,12 @@ const about = () => {
         {/* Start of text section */}
         <div className="container mx-auto flex px-5 pt-24  md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0">
-            <img
+            <Image
               className="object-cover object-center rounded opacity-50"
               alt="hero"
               src="/static/images/47.png"
+              width={512}
+              height={853}
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -71,16 +75,20 @@ const about = () => {
 
         {/* Start of button Section */}
         <div className="flex justify-center pb-28">
-          <a href="/portfolio_page" target="_blank">
-            <button className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:custom-color-eleven rounded text-lg">
-              Portfolio
-            </button>
-          </a>
-          <a href="/contact" target="_blank">
-            <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-custom-color-six rounded text-lg">
-              Say Hello
-            </button>
-          </a>
+          <Link href="/portfolio_page">
+            <a>
+              <button className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:custom-color-eleven rounded text-lg">
+                Portfolio
+              </button>
+            </a>
+          </Link>
+          <Link href="/contact">
+            <a>
+              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-custom-color-six rounded text-lg">
+                Say Hello
+              </button>
+            </a>
+          </Link>
         </div>
         {/* End of button Section */}
 
