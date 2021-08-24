@@ -43,16 +43,16 @@ const PortfolioPage = () => {
               >
                 <div className="flex relative">
                   <Image
-                    alt="gallery"
+                    alt="Link to portfolio example website created by nerdbrainz to display the kind of work that they are known for. You can have your very own unique custom website created by Nerdbrainz. Custom websites will attract my customers and drive sales. Nerdbrainz creative website design."
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/5.png"
                     layout="fill"
                   />
 
                   <a target="_blank" href="http://localhost:3000/">
-                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
                       <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
-                        ClassNameic Static
+                        Classic Static
                       </h2>
                       <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                         Simple Business Builder
@@ -74,13 +74,13 @@ const PortfolioPage = () => {
               >
                 <div className="flex relative">
                   <Image
-                    alt="gallery"
+                    alt="Link to a Nerdbrainz portfolio example site. Nerdbrainz makes websites for small to medium sized business. Nerdbrainz is especially well known for E-commerce sites. They create full stack websites with creative design that is tailored for your business."
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/24.png"
                     layout="fill"
                   />
                   <a target="_blank" href="http://localhost:3000/">
-                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
                       <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                         E-Commerce
                       </h2>
@@ -106,7 +106,7 @@ const PortfolioPage = () => {
                     layout="fill"
                   />
                   <a target="_blank" href="http://localhost:3000/">
-                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
                       <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                         Service Provider
                       </h2>
@@ -126,7 +126,7 @@ const PortfolioPage = () => {
               <div className="lg:w-1/3 sm:w-1/2 p-4 " data-aos="fade-up">
                 <div className="flex relative">
                   <Image
-                    alt="gallery"
+                    alt="Link to Nerdbrainz "
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/25.png"
                     layout="fill"
@@ -224,10 +224,10 @@ const PortfolioPage = () => {
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      stroke-width="2"
+                      strokeWidth="2"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
@@ -238,10 +238,10 @@ const PortfolioPage = () => {
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
-                      stroke-width="2"
+                      strokeWidth="2"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
@@ -253,10 +253,10 @@ const PortfolioPage = () => {
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
-                      stroke-width="2"
+                      strokeWidth="2"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
@@ -291,10 +291,10 @@ const PortfolioPage = () => {
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      stroke-width="2"
+                      strokeWidth="2"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
@@ -305,10 +305,10 @@ const PortfolioPage = () => {
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
-                      stroke-width="2"
+                      strokeWidth="2"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
@@ -320,10 +320,10 @@ const PortfolioPage = () => {
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
-                      stroke-width="2"
+                      strokeWidth="2"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
@@ -354,10 +354,10 @@ const PortfolioPage = () => {
                       className="w-4 h-4 ml-2"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      stroke-width="2"
+                      strokeWidth="2"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
@@ -368,10 +368,10 @@ const PortfolioPage = () => {
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
-                      stroke-width="2"
+                      strokeWidth="2"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
@@ -383,10 +383,10 @@ const PortfolioPage = () => {
                     <svg
                       className="w-4 h-4 mr-1"
                       stroke="currentColor"
-                      stroke-width="2"
+                      strokeWidth="2"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
@@ -412,14 +412,14 @@ const PortfolioPage = () => {
 
         {/*Start of Moving Background */}
         <section>
-          <div classNameName="ml-44">
-            <div classNameName="absolute w-3/5 h-32 top-1/3 left-1/4  bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-20  animate-blob animation-delay-2000 z-0 "></div>
+          <div className="ml-44">
+            <div className="absolute w-3/5 h-32 top-1/3 left-1/4  bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-20  animate-blob animation-delay-2000 z-0 "></div>
 
-            <div classNameName="absolute w-3/5 h-24 top-2/3 left-80  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-30  animate-blob animation-delay-6000"></div>
+            <div className="absolute w-3/5 h-24 top-2/3 left-80  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-30  animate-blob animation-delay-6000"></div>
 
-            <div classNameName="absolute w-3/5 h-24 top-1/2 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+            <div className="absolute w-3/5 h-24 top-1/2 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
 
-            <div classNameName="absolute w-3/5 h-24 bottom-1/4 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+            <div className="absolute w-3/5 h-24 bottom-1/4 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
           </div>
 
           {/* End of Moving Background  */}
