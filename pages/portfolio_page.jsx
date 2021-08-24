@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -10,7 +11,7 @@ const PortfolioPage = () => {
       duration: 2000,
     });
   }, []);
-
+  // 510x450
   return (
     <>
       <Meta
@@ -41,10 +42,11 @@ const PortfolioPage = () => {
                 data-aos="fade-right"
               >
                 <div className="flex relative">
-                  <img
+                  <Image
                     alt="gallery"
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/5.png"
+                    layout="fill"
                   />
 
                   <a target="_blank" href="http://localhost:3000/">
@@ -71,10 +73,11 @@ const PortfolioPage = () => {
                 data-aos-anchor-placement="top-bottom"
               >
                 <div className="flex relative">
-                  <img
+                  <Image
                     alt="gallery"
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/24.png"
+                    layout="fill"
                   />
                   <a target="_blank" href="http://localhost:3000/">
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -96,10 +99,11 @@ const PortfolioPage = () => {
               </div>
               <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
                 <div className="flex relative">
-                  <img
+                  <Image
                     alt="gallery"
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/26.png"
+                    layout="fill"
                   />
                   <a target="_blank" href="http://localhost:3000/">
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -121,10 +125,11 @@ const PortfolioPage = () => {
               </div>
               <div className="lg:w-1/3 sm:w-1/2 p-4 " data-aos="fade-up">
                 <div className="flex relative">
-                  <img
+                  <Image
                     alt="gallery"
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/25.png"
+                    layout="fill"
                   />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
@@ -143,10 +148,11 @@ const PortfolioPage = () => {
               </div>
               <div className="lg:w-1/3 sm:w-1/2 p-4 " data-aos="zoom-in">
                 <div className="flex relative">
-                  <img
+                  <Image
                     alt="gallery"
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/28.jpeg "
+                    layout="fill"
                   />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six b-1">
@@ -166,10 +172,11 @@ const PortfolioPage = () => {
               </div>
               <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="zoom-out-left">
                 <div className="flex relative">
-                  <img
+                  <Image
                     alt="gallery"
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/48.png"
+                    layout="fill"
                   />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">

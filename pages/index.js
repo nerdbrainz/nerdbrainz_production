@@ -116,7 +116,7 @@ const Home = () => {
             <div className="sm:w-1/3 mb-10 px-4">
               <div className="rounded-lg h-64 overflow-hidden">
                 <a href="/information/information-three" target="_blank">
-                  <img
+                  <Image
                     alt="Link to information about buying a static website. How to know if a static website with a landing page is the correct option for you. What is the best way of building a website that can grow with my company. Is a custom built website better than a template website"
                     className="object-cover object-center h-full w-full"
                     src="/static/images/38.png"
@@ -129,7 +129,7 @@ const Home = () => {
             <div className="sm:w-1/3 mb-10 px-4">
               <div className="rounded-lg h-64 overflow-hidden">
                 <a href="/information/information_six" target="_blank">
-                  <img
+                  <Image
                     alt="Link to information about selling services online. As a service provider what is the best way to sell my services and collect payments online. How to create online booking systems and who can I get to build these sites for me. Nerdbrainz can build you any website you need"
                     className="object-cover object-center h-full w-full"
                     src="/static/images/36.png"
@@ -142,7 +142,7 @@ const Home = () => {
             <div className="sm:w-1/3 mb-10 px-4">
               <div className="rounded-lg h-64 overflow-hidden">
                 <a href="/information/information-four" target="_blank">
-                  <img
+                  <Image
                     alt="Link to find out about E-commerce websites.What is an E-commerce website and how do I choose the right one for me. Nerdbrainz can build you an E-commerce site. Where do I host the site. Who can arrange for my site to hosted and maintained. What is an E-commerce back-end."
                     className="object-cover object-center h-full w-full"
                     src="/static/images/37.png"
@@ -198,7 +198,7 @@ const Home = () => {
               target="_blank"
               className="cursor"
             >
-              <img
+              <Image
                 className="object-cover object-center rounded  opacity-90 -rotate-1"
                 alt="Link to information about what UI and UX actually means. Who do you ask about UI and UX and how can I improve my understanding of User Experience and User Interface. Nerdbrainz will improve your User Experience and design your User Interface"
                 src="/static/images/42.png"
@@ -615,7 +615,7 @@ const Home = () => {
           data-aos="fade-up-right"
         >
           <div className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
-            <img
+            <Image
               alt="Link to how you can improve your business by improving your website. How can good branding build you more clients. Nerdbrainz can create you amazing logos and graphic designs. What technologies will generate more sales and more traffic. How to improver SEO and Search Engine Optimization "
               id="about-img"
               className="object-cover object-center w-full pt-20 opacity-90 -rotate-1"
@@ -680,11 +680,13 @@ const Home = () => {
                     they do!
                   </p>
                   <a className="inline-flex items-center" href="/">
-                    <img
+                    <Image
                       href="/"
                       alt="Read the testimonials of happy customers that have had custom websites built by Nerdbrainz. Find out more about the successful  work that Nerdbrainz have been doing to improve peoples websites and optimise their web presence and drive more sales and revenue."
-                      src="https://images.unsplash.com/photo-1601581975053-7c899da7347e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVzaW5lc3N3b21hbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                      src="/static/images/testimonial_1.jpeg"
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                      width={48}
+                      height={48}
                     />
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
@@ -715,10 +717,12 @@ const Home = () => {
                     success and doubled my income in the process.
                   </p>
                   <a className="inline-flex items-center" href="/">
-                    <img
+                    <Image
                       alt="Read the testimonial of more happy customers that have their websites upgraded by Nerdbrainz. Nerdbrainz has improved speeds increased up times and reduced failure. Nerdbrainz build peoples dream websites. and improved their online companies"
-                      src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzaW5lc3NtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                      src="/static/images/testimonial_2.jpeg"
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                      width={48}
+                      height={48}
                     />
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
@@ -747,10 +751,12 @@ const Home = () => {
                     they bring to the table. These guys are the best!
                   </p>
                   <a className="inline-flex items-center" href="/">
-                    <img
+                    <Image
                       alt="Read the testimonials of companies that have seen spikes in sales and revenue thanks to Nerdbrainz custom websites and branding. Find out how you can have a Nerdbrainz website custom made. Customers have had SEO improved and UX increased and have seen rapid changes to online sales"
-                      src="https://images.unsplash.com/photo-1552058544-f2b08422138a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=688&q=80"
+                      src="/static/images/testimonial_3.jpeg"
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                      width={48}
+                      height={48}
                     />
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
@@ -781,10 +787,12 @@ const Home = () => {
                     new site.
                   </p>
                   <a className="inline-flex items-center" href="/">
-                    <img
+                    <Image
                       alt="Read testimonial of people that have had their E-commerce site built by Nerdbrainz. With greater loading speeds and more intuitive UI and UX User Experience and User Interface. Professionally built Websites by NerdBrainz  "
-                      src="https://images.unsplash.com/photo-1614786269829-d24616faf56d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzaW5lc3N3b21hbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                      src="/static/images/testimonial_4.jpeg"
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                      width={48}
+                      height={48}
                     />
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
