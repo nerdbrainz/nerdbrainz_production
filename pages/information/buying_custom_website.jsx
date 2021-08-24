@@ -1,5 +1,5 @@
 import Meta from "../components/partials/Meta";
-const information = () => {
+const BuyingCustomWebsite = () => {
   return (
     <>
       <Meta
@@ -100,4 +100,4 @@ const information = () => {
   );
 };
 
-export default information;
+export default BuyingCustomWebsite;

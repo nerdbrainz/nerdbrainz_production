@@ -1,5 +1,5 @@
 import Meta from "../components/partials/Meta";
-const informationFour = () => {
+const WhatIsAEcommerceSite = () => {
   return (
     <>
       <Meta
@@ -164,4 +164,4 @@ const informationFour = () => {
   );
 };
 
-export default informationFour;
+export default WhatIsAEcommerceSite;

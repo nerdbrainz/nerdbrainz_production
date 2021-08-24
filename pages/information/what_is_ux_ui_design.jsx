@@ -1,5 +1,5 @@
 import Meta from "../components/partials/Meta";
-const informationTwo = () => {
+const WhatIsUxUiDesign = () => {
   return (
     <>
       <Meta
@@ -81,4 +81,4 @@ const informationTwo = () => {
   );
 };
 
-export default informationTwo;
+export default WhatIsUxUiDesign;

@@ -1,5 +1,5 @@
 import Meta from "../components/partials/Meta";
-const InformationFive = () => {
+const WhatWebsiteIsRightForMe = () => {
   return (
     <>
       <Meta
@@ -198,4 +198,4 @@ const InformationFive = () => {
   );
 };
 
-export default InformationFive;
+export default WhatWebsiteIsRightForMe;

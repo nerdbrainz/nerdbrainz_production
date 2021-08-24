@@ -1,5 +1,5 @@
 import Meta from "../components/partials/Meta";
-const informationThree = () => {
+const WhatIsAStaticSite = () => {
   return (
     <>
       <Meta
@@ -181,4 +181,4 @@ const informationThree = () => {
   );
 };
 
-export default informationThree;
+export default WhatIsAStaticSite;
