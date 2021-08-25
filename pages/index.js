@@ -126,7 +126,6 @@ const Home = () => {
                     whileHover={{
                       position: "relative",
                       zIndex: 1,
-                      // background: "white",
                       scale: 1.2,
                       transition: {
                         duration: 0.2,
@@ -259,7 +258,7 @@ const Home = () => {
           data-aos="fade-up"
           data-aos-duration="4000"
         >
-          <div className="container px-5 lg:py-24 mx-auto opacity-90 mt-24 lg:mt-44">
+          <div className="container px-5 lg:py-24 mx-auto  mt-24 lg:mt-44">
             <div className="flex flex-col text-center w-full mb-20">
               <h1 className="sm:text-6xl text-3xl font-medium title-font mb-2 text-custom-color-ten ">
                 How much will a professionally built website cost me
@@ -661,14 +660,18 @@ const Home = () => {
                     platforms.
                   </p>
                 </div>
-                <div className="flex pt-5">
-                  <Link href="/">
-                    <button className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg">
-                      Learn More
-                    </button>
-                  </Link>
-                </div>
               </div>
+            </div>
+            {/* <div className="flex pt-5"> */}
+            <div class="p-2 w-full mt-12">
+              <Link href="/">
+                <a>
+                  <button class="flex mx-auto text-white  border-0 py-2 px-8   rounded text-lg bg-custom-color-six focus:outline-none hover:bg-black-600">
+                    Business Options
+                  </button>
+                </a>
+              </Link>
+              {/* </div> */}
             </div>
           </div>
 

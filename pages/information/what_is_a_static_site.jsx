@@ -58,6 +58,10 @@ const WhatIsAStaticSite = () => {
               appreciate quality.
             </p>
             <br />
+          </div>
+        </div>
+        <div className="flex flex-wrap -mx-1 overflow-hidden mx-5  sm:-mx-1 md:-mx-2 lg:-mx-1 xl:-mx-1 lg:px-8 md:items-start md:text-left items-center text-center">
+          <div className="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-2 md:px-2 lg:my-1 lg:px-1 xl:my-1 xl:px-1 sm:px-10 text-custom-color-ten  pb-24">
             <h3 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
               An About Page{" "}
             </h3>
@@ -87,10 +91,6 @@ const WhatIsAStaticSite = () => {
               organic marketing system, reaching out to people you know are
               interested in your service directly.
             </p>
-          </div>
-        </div>
-        <div className="flex flex-wrap -mx-1 overflow-hidden mx-5  sm:-mx-1 md:-mx-2 lg:-mx-1 xl:-mx-1 lg:px-8 md:items-start md:text-left items-center text-center">
-          <div className="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-2 md:px-2 lg:my-1 lg:px-1 xl:my-1 xl:px-1 sm:px-10 text-custom-color-ten  pb-24">
             <h3 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-custom-color-ten">
               Further Information Pages
             </h3>
