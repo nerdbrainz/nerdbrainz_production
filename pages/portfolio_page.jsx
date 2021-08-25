@@ -45,11 +45,11 @@ const PortfolioPage = () => {
                   <Image
                     alt="Link to portfolio example website created by nerdbrainz to display the kind of work that they are known for. You can have your very own unique custom website created by Nerdbrainz. Custom websites will attract my customers and drive sales. Nerdbrainz creative website design."
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/5.png"
+                    src="/static/images/28.jpeg"
                     layout="fill"
                   />
 
-                  <a target="_blank" href="http://localhost:3000/">
+                  <a target="_blank" href="https://www.theyardbarber509.com">
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
                       <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                         Classic Static
@@ -79,7 +79,7 @@ const PortfolioPage = () => {
                     src="/static/images/24.png"
                     layout="fill"
                   />
-                  <a target="_blank" href="http://localhost:3000/">
+                  <a target="_blank" href="house_plants">
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
                       <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                         E-Commerce
@@ -105,7 +105,7 @@ const PortfolioPage = () => {
                     src="/static/images/26.png"
                     layout="fill"
                   />
-                  <a target="_blank" href="http://localhost:3000/">
+                  <a target="_blank" href="/nerdbrainz_coffee">
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
                       <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
                         Service Provider
@@ -133,15 +133,15 @@ const PortfolioPage = () => {
                   />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
-                      Shopify
+                      Service Industry
                     </h2>
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                      E-Commerce
+                      Reaching more people
                     </h1>
                     <p className="leading-relaxed">
-                      We are a specialist shopify websites builder. We can build
-                      totally unique front end scalable sites with integrated
-                      shopify back ends
+                      We can create a website that will allow for you to offer
+                      your services online with automated client billing. For
+                      one off sales and recurring billing
                     </p>
                   </div>
                 </div>
@@ -151,7 +151,7 @@ const PortfolioPage = () => {
                   <Image
                     alt="Example picture of an actual website created by Nerdbrainz. Nerdbrainz creates websites perfectly suited for companies and businesses that sell services online and need to take bookings. Nerdbrainz will create websites with payment systems that connect directly to accounting services. Nerdbrainz websites give you more control and help you interact with customers. "
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/28.jpeg "
+                    src="/static/images/5.png  "
                     layout="fill"
                   />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -162,9 +162,9 @@ const PortfolioPage = () => {
                       We can create your blog
                     </h1>
                     <p className="leading-relaxed">
-                      We will work with you so you end up with an easy a
-                      beautifully functioning website blog that can be accessed
-                      by all devices.
+                      Together we will create an interactive website that
+                      perfectly highlights what is special about your
+                      organization and what you have to offer to the world.
                       <br />
                     </p>
                   </div>
@@ -173,22 +173,22 @@ const PortfolioPage = () => {
               <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="zoom-out-left">
                 <div className="flex relative">
                   <Image
-                    alt="gallery"
+                    alt="Image of a website made by Nerdbrainz. That shows their unique style and skill at building beautiful websites. Nerdbrainz is perfectly situated to create you a website that has the ability to take orders, bookings and take payment."
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/48.png"
                     layout="fill"
                   />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-custom-color-six mb-1">
-                      Service industries
+                      Shopify
                     </h2>
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                      Reaching more people
+                      E-Commerce
                     </h1>
                     <p className="leading-relaxed">
-                      We can create a website that will allow for you to offer
-                      your services online with automated client billing. For
-                      one off sales and recurring billing
+                      We are a specialist shopify websites builder. We can build
+                      totally unique front end scalable sites with integrated
+                      shopify back ends
                     </p>
                   </div>
                 </div>
