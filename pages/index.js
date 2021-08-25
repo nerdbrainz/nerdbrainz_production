@@ -40,7 +40,7 @@ const Home = () => {
                 <Link href="/information/buying_custom_website">
                   <a>
                     <button className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg">
-                      Learn More
+                      Custom Websites
                     </button>
                   </a>
                 </Link>
@@ -198,18 +198,20 @@ const Home = () => {
               className="lg:flex-grow md:w-1/2 md:py-4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center 
           "
             >
+              <h1 className="title-font  sm:text-4xl  md:mr-8 text-3xl mb-4 font-medium text-custom-color-ten opacity-90">
+                Un-muddling UX and UI Design
+              </h1>
+              <p className="mb-8 leading-relaxed px-5 md:px-0 lg:px-0 text-custom-color-ten opacity-90 md:mr-12">
+                Understanding User Experience and User Interface is a daunting
+                process. Read our guide to successful mastery of this science
+                and learn why it is essential to the future of your business.
+                and find out how Nerdbrainz will make it easier for you.
+              </p>
               <Link href="/information/what_is_ux_ui_design">
-                <a className="cursor">
-                  <h1 className="title-font  sm:text-4xl  md:mr-8 text-3xl mb-4 font-medium text-custom-color-ten opacity-90">
-                    Un-muddling UX and UI Design
-                  </h1>
-                  <p className="mb-8 leading-relaxed px-5 md:px-0 lg:px-0 text-custom-color-ten opacity-90 md:mr-12">
-                    Understanding User Experience and User Interface is a
-                    daunting process. Read our guide to successful mastery of
-                    this science and learn why it is essential to the future of
-                    your business. and find out how Nerdbrainz will make it
-                    easier for you.
-                  </p>
+                <a>
+                  <button className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg">
+                    What is UX and UI Design?
+                  </button>
                 </a>
               </Link>
             </div>

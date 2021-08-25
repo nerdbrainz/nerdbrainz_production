@@ -15,7 +15,7 @@ const Navbar = () => {
     <>
       <nav className="flex items-center flex-wrap p-3 w-screen bg-custom-color-one sm:pt-8 sm:pr-8 md:pr-8 lg:pt-24">
         <Link href="/">
-          <a>
+          <a className="nerd-brainz-logo-nav">
             <Image
               src="/static/images/Logo.png"
               className="h-20 w-auto ml-10 mt-1 cursor-pointer"

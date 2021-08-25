@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-wrap -mx-1 mt-8 overflow-hidden">
           <div className="w-full overflow-hidden">
             <Link href="/">
-              <a className="flex items-center justify-center">
+              <a className="flex items-center justify-center nerdbrainz-logo-footer">
                 Powered by{" "}
                 <Image
                   src="/static/images/nb_logo.png"
