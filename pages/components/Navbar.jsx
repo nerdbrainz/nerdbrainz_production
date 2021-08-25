@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center flex-wrap p-3 w-screen bg-custom-color-one sm:pt-8 sm:pr-8 md:pr-8 lg:pt-24">
+      <nav className="flex items-center flex-wrap p-3 w-screen bg-custom-color-one sm:pt-8 sm:pr-8 md:pr-8 lg:pl-12 lg:pt-24">
         <Link href="/">
           <a className="nerd-brainz-logo-nav">
             <Image
