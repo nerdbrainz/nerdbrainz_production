@@ -49,12 +49,11 @@ const Home = () => {
 
             <div className="relative lg:max-w-5xl lg:w-full lg: md:w-1/2 w-5/6 z-50">
               <Image
-                className="object-cover object-center rounded shadow-2xl "
+                className="object-cover object-center rounded shadow-2xl hidden md:block"
                 alt="Link to honest information about choosing a website. what should you expect when buying a custom website professionally built with you and your company in mind and what website would best suit your needs. How should you choose a website and where do you find the most up to date information for free"
                 src="/static/images/14.png"
                 width={970}
                 height={485}
-                layout="responsive"
               />
             </div>
           </div>
