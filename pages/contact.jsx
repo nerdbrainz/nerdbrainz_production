@@ -9,7 +9,7 @@ const Contact = () => {
       />
       <section className=" bg-custom-color-one lg:pb-12 opacity-90">
         {/* Start of contact section */}
-        <section className="text-gray-600 body-font relative">
+        <section className="text-custom-color-eleven body-font relative">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-12">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-custom-color-ten">
@@ -25,7 +25,7 @@ const Contact = () => {
                 <div className="p-2 w-1/2">
                   <div className="relative">
                     <label
-                      className="leading-7 text-sm text-gray-600"
+                      className="leading-7 text-sm text-custom-color-eleven"
                       htmlFor="name"
                     >
                       Name
@@ -43,7 +43,7 @@ const Contact = () => {
                   <div className="relative">
                     <label
                       htmlFor="email"
-                      className="leading-7 text-sm text-gray-600"
+                      className="leading-7 text-sm text-custom-color-eleven"
                     >
                       Email
                     </label>
@@ -59,7 +59,7 @@ const Contact = () => {
                   <div className="relative">
                     <label
                       htmlFor="subject"
-                      className="leading-7 text-sm text-gray-600"
+                      className="leading-7 text-sm text-custom-color-eleven"
                     >
                       Subject
                     </label>
@@ -75,7 +75,7 @@ const Contact = () => {
                   <div className="relative">
                     <label
                       htmlFor="message"
-                      className="leading-7 text-sm text-gray-600"
+                      className="leading-7 text-sm text-custom-color-eleven"
                     >
                       Message
                     </label>

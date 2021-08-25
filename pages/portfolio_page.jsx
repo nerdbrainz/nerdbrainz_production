@@ -20,10 +20,10 @@ const PortfolioPage = () => {
       />
       <section>
         {/* Start first row of cards */}
-        <section className="text-gray-600 body-font bg-custom-color-one">
+        <section className="text-custom-color-eleven body-font bg-custom-color-one">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-custom-color-ten opacity-75">
+              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-custom-color-ten ">
                 Portfolio Projects And Designs
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-custom-color-ten">
@@ -100,7 +100,7 @@ const PortfolioPage = () => {
               <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
                 <div className="flex relative">
                   <Image
-                    alt="gallery"
+                    alt="Link to one of Nerdbrainz portfolio example websites. Nerdbrainz creates E-commerce solutions for companies like financial services, banking, insurance brokers. Nerdbrainz listens to what your company actually needs the most and creates solution focused website design. Nerdbrainz E-commerce solutions are designed by you for you."
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/26.png"
                     layout="fill"
@@ -126,7 +126,7 @@ const PortfolioPage = () => {
               <div className="lg:w-1/3 sm:w-1/2 p-4 " data-aos="fade-up">
                 <div className="flex relative">
                   <Image
-                    alt="Link to Nerdbrainz "
+                    alt="Picture of a Nerdbrainz website displaying information about E-commerce and especially Shopify. Nerdbrainz is in partnership with Shopify to bring their customers faster more reliable E-commerce solutions. Nerdbrainz understand the needs of a modern online retailer and create websites that will drive sales and reduce abandoned carts"
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/25.png"
                     layout="fill"
@@ -149,7 +149,7 @@ const PortfolioPage = () => {
               <div className="lg:w-1/3 sm:w-1/2 p-4 " data-aos="zoom-in">
                 <div className="flex relative">
                   <Image
-                    alt="gallery"
+                    alt="Example picture of an actual website created by Nerdbrainz. Nerdbrainz creates websites perfectly suited for companies and businesses that sell services online and need to take bookings. Nerdbrainz will create websites with payment systems that connect directly to accounting services. Nerdbrainz websites give you more control and help you interact with customers. "
                     className="absolute inset-0 w-full h-full object-cover object-center"
                     src="/static/images/28.jpeg "
                     layout="fill"
@@ -199,14 +199,11 @@ const PortfolioPage = () => {
         {/* End first row of cards */}
 
         {/* Start second row of cards */}
-        <section className="text-gray-600 body-font bg-custom-color-one">
+        <section className="text-custom-color-eleven body-font bg-custom-color-one">
           <div className="container px-5 py-24 mx-auto pb-64">
             <div className="flex flex-wrap -m-4">
               <div className="p-4 lg:w-1/3" data-aos="fade-down-right">
                 <div className="h-full bg-custom-color-nine bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                  {/* <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                  CATEGORY
-                </h2> */}
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                     Why might I need a custom website
                   </h1>
@@ -233,37 +230,6 @@ const PortfolioPage = () => {
                       <path d="M12 5l7 7-7 7"></path>
                     </svg>
                   </a>
-                  {/* <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                  <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                    <svg
-                      className="w-4 h-4 mr-1"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>
-                    1.2K
-                  </span>
-                  <span className="text-gray-400 inline-flex items-center leading-none text-sm">
-                    <svg
-                      className="w-4 h-4 mr-1"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                    </svg>
-                    6
-                  </span>
-                </div> */}
                 </div>
               </div>
               <div className="p-4 lg:w-1/3">
@@ -271,9 +237,6 @@ const PortfolioPage = () => {
                   className="h-full bg-custom-color-nine bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative"
                   data-aos="fade-up"
                 >
-                  {/* <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                  CATEGORY
-                </h2> */}
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                     What is UX & UI Design
                   </h1>
@@ -300,37 +263,7 @@ const PortfolioPage = () => {
                       <path d="M12 5l7 7-7 7"></path>
                     </svg>
                   </a>
-                  <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                    {/* <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                    <svg
-                      className="w-4 h-4 mr-1"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>
-                    1.2K
-                  </span>
-                  <span className="text-gray-400 inline-flex items-center leading-none text-sm">
-                    <svg
-                      className="w-4 h-4 mr-1"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                    </svg>
-                    6
-                  </span> */}
-                  </div>
+                  <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4"></div>
                 </div>
               </div>
               <div className="p-4 lg:w-1/3">
@@ -338,9 +271,6 @@ const PortfolioPage = () => {
                   className="h-full bg-custom-color-nine bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative"
                   data-aos="fade-down-left"
                 >
-                  {/* <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                  CATEGORY
-                </h2> */}
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                     What Website is right for me
                   </h1>
@@ -363,37 +293,6 @@ const PortfolioPage = () => {
                       <path d="M12 5l7 7-7 7"></path>
                     </svg>
                   </a>
-                  {/* <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                  <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                    <svg
-                      className="w-4 h-4 mr-1"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                      <circle cx="12" cy="12" r="3"></circle>
-                    </svg>
-                    1.2K
-                  </span>
-                  <span className="text-gray-400 inline-flex items-center leading-none text-sm">
-                    <svg
-                      className="w-4 h-4 mr-1"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                    </svg>
-                    6
-                  </span>
-                </div> */}
                 </div>
               </div>
             </div>

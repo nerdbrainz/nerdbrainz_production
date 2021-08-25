@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { motion } from "framer-motion";
 import { useEffect } from "react";
 import Meta from "./components/partials/Meta";
 
@@ -20,18 +21,18 @@ const Home = () => {
       />
       <div className="App bg-custom-color-one ">
         {/* START OF with SECTION call-to-action-button  */}
-        <section className="text-gray-600 body-font sm:pt-8 lg:pt-8 mx-12 z-50 ">
+        <section className="text-custom-color-eleven body-font sm:pt-8 lg:pt-8 mx-12 z-50 ">
           <div
             className="container mx-auto flex  py-8 lg:py-24 md:flex-row flex-col items-center  lg:-mr-8 z-50 md:pl-12"
             data-aos="zoom-in"
           >
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:py-44 md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="title-font sm:text-4xl   text-3xl mb-4 font-medium text-custom-color-ten opacity-90 lg:-ml-24">
+              <h1 className="title-font sm:text-4xl   text-3xl mb-4 font-medium text-custom-color-ten lg:-ml-24">
                 What will
                 <br className="hidden lg:inline-block" /> a custom website
                 actually look like
               </h1>
-              <p className="mb-8 leading-relaxed lg:-ml-24">
+              <p className="mb-8 leading-relaxed lg:-ml-24 text-custom-color-eleven">
                 How to navigate the world of web development and know what you
                 are buying is actually what your project needs.
               </p>
@@ -65,7 +66,7 @@ const Home = () => {
 
         <section
           id="about-feature"
-          className="text-gray-600 body-font bg-custom-color-Three lg:pb-44"
+          className="text-custom-color-eleven body-font bg-custom-color-Three lg:pb-44"
           data-aos="fade-up"
         >
           <Link href="/information/what_website_is_right_for_me">
@@ -82,80 +83,121 @@ const Home = () => {
                   />
                 </div>
 
-                <div className="flex flex-col flex-wrap  lg:py-6 -mb-10 lg:w-1/2  lg:pl-20 lg:text-left text-center md:pb-24 ">
+                <div className="flex flex-col flex-wrap  lg:py-6 -mb-10 lg:w-1/2  lg:pl-20 lg:text-left text-center md:pb-24   ">
                   <div className="flex flex-col  lg:items-start items-center ">
                     <div className="flex-grow">
-                      <h1 className="title-font  sm:text-4xl text-3xl mb-4 font-medium pt-12 lg:pt-24 text-custom-color-ten opacity-90 ">
+                      <h1 className="title-font  sm:text-4xl text-3xl mb-4 font-medium pt-12  text-custom-color-ten  ">
                         What website choices are there
                       </h1>
-                      <p className="leading-relaxed text-base  text-custom-color-ten text-2xl pb-24">
+                      <p className="leading-relaxed text-base  text-custom-color-ten text-2xl pb-12">
                         What are my options and what kind of websites can I
                         choose from? What are the benefits for my business with
                         a custom website.
                       </p>
                     </div>
+
                     <div className="flex pt-5"></div>
                   </div>
                 </div>
               </div>
             </a>
           </Link>
+
+          <div class="p-2 w-full mt-12">
+            <Link href="/information/what_website_is_right_for_me">
+              <a>
+                <button class="flex mx-auto text-white  border-0 py-2 px-8   rounded text-lg bg-custom-color-six focus:outline-none hover:bg-black-600">
+                  What Website
+                </button>
+              </a>
+            </Link>
+          </div>
         </section>
         {/* End of What website Section  */}
 
         {/* Start of E-commerce/static/service provider */}
 
-        <section className="text-gray-600 body-font lg:pt-24  lg:pb-64">
+        <section className="text-custom-color-eleven body-font lg:pt-24  lg:pb-64">
           <div className="container px-5 py-24 mx-auto" data-aos="zoom-in">
             <div className="flex flex-wrap -mx-4 -mb-10 text-center">
               <div className="sm:w-1/3 mb-10 px-4">
-                <div className="rounded-lg h-64 overflow-hidden">
-                  <Link href="/information/what_is_a_static_site">
-                    <a>
-                      <Image
-                        alt="Link to information about buying a static website. How to know if a static website with a landing page is the correct option for you. What is the best way of building a website that can grow with my company. Is a custom built website better than a template website"
-                        className="object-cover object-center h-full w-full"
-                        src="/static/images/38.png"
-                        width={392}
-                        height={256}
-                      />
-                    </a>
-                  </Link>
+                <div className="rounded-lg h-64 overflow-hidden hover">
+                  <motion.div
+                    whileHover={{
+                      position: "relative",
+                      zIndex: 1,
+                      // background: "white",
+                      scale: 1.2,
+                      transition: {
+                        duration: 0.2,
+                      },
+                    }}
+                  >
+                    <Link href="/information/what_is_a_static_site">
+                      <a>
+                        <Image
+                          alt="Link to information about buying a static website. How to know if a static website with a landing page is the correct option for you. What is the best way of building a website that can grow with my company. Is a custom built website better than a template website"
+                          className="object-cover object-center h-full w-full"
+                          src="/static/images/38.png"
+                          width={392}
+                          height={256}
+                        />
+                      </a>
+                    </Link>
+                  </motion.div>
                 </div>
               </div>
               <div className="sm:w-1/3 mb-10 px-4">
                 <div className="rounded-lg h-64 overflow-hidden">
-                  <Link href="/information/information_six">
-                    <a>
-                      <Image
-                        alt="Link to information about selling services online. As a service provider what is the best way to sell my services and collect payments online. How to create online booking systems and who can I get to build these sites for me. Nerdbrainz can build you any website you need"
-                        className="object-cover object-center h-full w-full"
-                        src="/static/images/36.png"
-                        width={392}
-                        height={256}
-                      />
-                    </a>
-                  </Link>
+                  <motion.div
+                    whileHover={{
+                      scale: 1.2,
+                      transition: {
+                        duration: 0.2,
+                      },
+                    }}
+                  >
+                    <Link href="/information/information_six">
+                      <a>
+                        <Image
+                          alt="Link to information about selling services online. As a service provider what is the best way to sell my services and collect payments online. How to create online booking systems and who can I get to build these sites for me. Nerdbrainz can build you any website you need"
+                          className="object-cover object-center h-full w-full"
+                          src="/static/images/36.png"
+                          width={392}
+                          height={256}
+                        />
+                      </a>
+                    </Link>
+                  </motion.div>
                 </div>
               </div>
               <div className="sm:w-1/3 mb-10 px-4">
                 <div className="rounded-lg h-64 overflow-hidden">
-                  <Link href="/information/what_is_a_ecommerce_site">
-                    <a>
-                      <Image
-                        alt="Link to find out about E-commerce websites.What is an E-commerce website and how do I choose the right one for me. Nerdbrainz can build you an E-commerce site. Where do I host the site. Who can arrange for my site to hosted and maintained. What is an E-commerce back-end."
-                        className="object-cover object-center h-full w-full"
-                        src="/static/images/37.png"
-                        width={392}
-                        height={256}
-                      />
-                    </a>
-                  </Link>
+                  <motion.div
+                    whileHover={{
+                      scale: 1.2,
+                      transition: {
+                        duration: 0.2,
+                      },
+                    }}
+                  >
+                    <Link href="/information/what_is_a_ecommerce_site">
+                      <a>
+                        <Image
+                          alt="Link to find out about E-commerce websites.What is an E-commerce website and how do I choose the right one for me. Nerdbrainz can build you an E-commerce site. Where do I host the site. Who can arrange for my site to hosted and maintained. What is an E-commerce back-end."
+                          className="object-cover object-center h-full w-full"
+                          src="/static/images/37.png"
+                          width={392}
+                          height={256}
+                        />
+                      </a>
+                    </Link>
+                  </motion.div>
                 </div>
               </div>
               <div className="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-1 md:px-1 lg:my-1 lg:px-1 xl:my-2 xl:px-2  md:pb-44">
                 <div className="container mx-auto flex flex-col px-5  justify-center items-center text-center">
-                  <p className="text-base mt-2 text-gray-500 mb-8 w-full text-custom-color-ten opacity-90 body-font w-2/3 sm:text-4xl text-3xlfont-medium lg:pt-24 md:pb-12text-custom-color-ten opacity-90">
+                  <p className="text-base mt-2 text-custom-color-ten mb-8 w-full text-custom-color-ten  body-font w-2/3 sm:text-4xl text-3xl font-medium lg:pt-24 md:pb-12">
                     Find out more about what each of these types of website
                     actually do and what is right for you.
                   </p>
@@ -168,7 +210,7 @@ const Home = () => {
         {/* End of E-commerce/static/service provider */}
 
         {/* Start of UI Examples */}
-        <section className="text-gray-600 body-font">
+        <section className="text-custom-color-eleven body-font">
           <div
             className="container mx-auto flex  sm:p20  md:py-44 pb-24 md:pt- lg:pt-32 md:flex-row flex-col items-center"
             data-aos="fade-up"
@@ -188,10 +230,10 @@ const Home = () => {
             </div>
 
             <div className="lg:flex-grow md:w-1/2 md:py-4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-              <h1 className="title-font  sm:text-4xl  md:mr-8 text-3xl mb-4 font-medium text-custom-color-ten opacity-90">
+              <h1 className="title-font  sm:text-4xl  md:mr-8 text-3xl mb-4 font-medium text-custom-color-ten ">
                 Un-muddling UX and UI Design
               </h1>
-              <p className="mb-8 leading-relaxed px-5 md:px-0 lg:px-0 text-custom-color-ten opacity-90 md:mr-12">
+              <p className="mb-8 leading-relaxed px-5 md:px-0 lg:px-0 text-custom-color-ten md:mr-12">
                 Understanding User Experience and User Interface is a daunting
                 process. Read our guide to successful mastery of this science
                 and learn why it is essential to the future of your business.
@@ -222,7 +264,7 @@ const Home = () => {
               <h1 className="sm:text-6xl text-3xl font-medium title-font mb-2 text-custom-color-ten ">
                 How much will a professionally built website cost me
               </h1>
-              <p className="lg:w-2/3 text-xl mx-auto leading-relaxed text-base text-custom-color-ten opacity-90">
+              <p className="lg:w-2/3 text-xl mx-auto leading-relaxed text-base text-custom-color-ten ">
                 Simple landing pages, personal blogs, and E-commerce. Our easy
                 step by step approach will help you navigate through the
                 choosing process.
@@ -585,7 +627,7 @@ const Home = () => {
 
         <section
           id="about-feature"
-          className="text-gray-600 body-font bg-custom-color-Three lg:pb-96"
+          className="text-custom-color-eleven body-font bg-custom-color-Three lg:pb-96"
         >
           <div
             className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap "
@@ -608,7 +650,7 @@ const Home = () => {
                 data-aos="zoom-in"
               >
                 <div className="flex-grow">
-                  <h2 className="text-2xl text-custom-color-ten opacity-90 text-center md:text-4xl lg:text-7xl title-font font-medium pb-24 md:pb-4 pt-12 mb-5 md:pt-24 ">
+                  <h2 className="text-2xl text-custom-color-ten  text-center md:text-4xl lg:text-7xl title-font font-medium pb-24 md:pb-4 pt-12 mb-5 md:pt-24 ">
                     Business Development
                   </h2>
                   <p className="leading-relaxed text-base  text-custom-color-ten text-2xl">
@@ -633,9 +675,9 @@ const Home = () => {
           {/* End of picture and copy Section  */}
 
           {/* Start of testimonials */}
-          <section className="text-gray-600 body-font lg:pt-44">
+          <section className="text-custom-color-eleven body-font lg:pt-44">
             <div className="container px-5 pt-24 pb-12 md:pb-24 mx-auto">
-              <h1 className="text-3xl font-medium title-font text-custom-color-ten opacity-90 mb-12 text-center">
+              <h1 className="text-3xl font-medium title-font text-custom-color-ten  mb-12 text-center">
                 Testimonials
               </h1>
               <div className="flex flex-wrap -m-4">

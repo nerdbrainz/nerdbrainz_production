@@ -31,11 +31,14 @@ module.exports = {
         //Darker off white
         "custom-color-nine": "#f0e9e9",
 
-        // NB grey
-        "custom-color-ten": "#888888",
+        // Title text
+        "custom-color-ten": "#757272",
 
-        // Red/pink
-        "custom-color-eleven": "#ec4067",
+        // Paragraph text
+        "custom-color-eleven": "#888888",
+
+        // #8a8888 #888888 #757272 #d69f9f #ec4067
+
         // Coffee colors
         "custom-tan": "#c7a17a",
         "custom-black-light": "#191919",
