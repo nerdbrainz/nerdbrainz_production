@@ -45,7 +45,7 @@ const PortfolioPage = () => {
                   <Image
                     alt="Link to portfolio example website created by nerdbrainz to display the kind of work that they are known for. You can have your very own unique custom website created by Nerdbrainz. Custom websites will attract my customers and drive sales. Nerdbrainz creative website design."
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/28.jpeg"
+                    src="/static/images/portfolio6.png"
                     layout="fill"
                   />
 
@@ -76,7 +76,7 @@ const PortfolioPage = () => {
                   <Image
                     alt="Link to a Nerdbrainz portfolio example site. Nerdbrainz makes websites for small to medium sized business. Nerdbrainz is especially well known for E-commerce sites. They create full stack websites with creative design that is tailored for your business."
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/24.png"
+                    src="/static/images/portfolio3.png"
                     layout="fill"
                   />
                   <a target="_blank" href="house_plants">
@@ -102,7 +102,7 @@ const PortfolioPage = () => {
                   <Image
                     alt="Link to one of Nerdbrainz portfolio example websites. Nerdbrainz creates E-commerce solutions for companies like financial services, banking, insurance brokers. Nerdbrainz listens to what your company actually needs the most and creates solution focused website design. Nerdbrainz E-commerce solutions are designed by you for you."
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/26.png"
+                    src="/static/images/portfolio2.png"
                     layout="fill"
                   />
                   <a target="_blank" href="/nerdbrainz_coffee">
@@ -128,7 +128,7 @@ const PortfolioPage = () => {
                   <Image
                     alt="Picture of a Nerdbrainz website displaying information about E-commerce and especially Shopify. Nerdbrainz is in partnership with Shopify to bring their customers faster more reliable E-commerce solutions. Nerdbrainz understand the needs of a modern online retailer and create websites that will drive sales and reduce abandoned carts"
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/25.png"
+                    src="/static/images/portfolio5.png"
                     layout="fill"
                   />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -151,7 +151,7 @@ const PortfolioPage = () => {
                   <Image
                     alt="Example picture of an actual website created by Nerdbrainz. Nerdbrainz creates websites perfectly suited for companies and businesses that sell services online and need to take bookings. Nerdbrainz will create websites with payment systems that connect directly to accounting services. Nerdbrainz websites give you more control and help you interact with customers. "
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/5.png  "
+                    src="/static/images/portfolio1.png  "
                     layout="fill"
                   />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -175,7 +175,7 @@ const PortfolioPage = () => {
                   <Image
                     alt="Image of a website made by Nerdbrainz. That shows their unique style and skill at building beautiful websites. Nerdbrainz is perfectly situated to create you a website that has the ability to take orders, bookings and take payment."
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/48.png"
+                    src="/static/images/portfolio4.png"
                     layout="fill"
                   />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
