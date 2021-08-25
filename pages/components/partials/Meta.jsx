@@ -45,7 +45,11 @@ const Meta = (props) => (
       rel="stylesheet"
     />
     <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico" />
-    <link rel="apple-touch-icon" href="/static/images/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="/static/images/apple-touch-cion.png"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
