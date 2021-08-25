@@ -26,7 +26,7 @@ const Home = () => {
             data-aos="zoom-in"
           >
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:py-44 md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="title-font sm:text-4xl   text-3xl mb-4 font-medium text-custom-color-ten opacity-90 lg:-ml-24 ">
+              <h1 className="title-font sm:text-4xl   text-3xl mb-4 font-medium text-custom-color-ten opacity-90 lg:-ml-24">
                 What will
                 <br className="hidden lg:inline-block" /> a custom website
                 actually look like
@@ -54,6 +54,7 @@ const Home = () => {
                 src="/static/images/14.png"
                 width={970}
                 height={485}
+                layout="responsive"
               />
             </div>
           </div>
@@ -194,10 +195,7 @@ const Home = () => {
               </Link>
             </div>
 
-            <div
-              className="lg:flex-grow md:w-1/2 md:py-4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center 
-          "
-            >
+            <div className="lg:flex-grow md:w-1/2 md:py-4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
               <h1 className="title-font  sm:text-4xl  md:mr-8 text-3xl mb-4 font-medium text-custom-color-ten opacity-90">
                 Un-muddling UX and UI Design
               </h1>

@@ -28,6 +28,7 @@ const Navbar = () => {
         <button
           className=" inline-flex p-3  rounded lg:hidden text-custom-color-1 ml-auto hover:text-custom-color-1 outline-none"
           onClick={handleClick}
+          aria-label="Open the menu"
         >
           <svg
             className="w-6 h-6"
