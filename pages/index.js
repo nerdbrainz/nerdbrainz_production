@@ -94,14 +94,7 @@ const Home = () => {
                         a custom website.
                       </p>
                     </div>
-                    <div className="flex pt-5">
-                      {/* <button
-                  className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:bg-black-600 rounded text-lg 
-              "
-                >
-                  Learn More
-                </button> */}
-                    </div>
+                    <div className="flex pt-5"></div>
                   </div>
                 </div>
               </div>
