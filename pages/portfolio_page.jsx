@@ -9,7 +9,7 @@ const PortfolioPage = () => {
   useEffect(() => {
     Aos.init({
       duration: 2000,
-      disable: "mobile, tablet",
+      disable: "mobile",
     });
   }, []);
   // 510x450
@@ -37,16 +37,16 @@ const PortfolioPage = () => {
               </p>
             </div>
 
-            <div className="flex flex-wrap -m-4 pb-24">
+            <div className="flex flex-wrap -m-4 sm:pb-0 lg:pb-24">
               <div
-                className="lg:w-1/3 sm:w-1/2 p-4 pb-44"
+                className="lg:w-1/3 sm:w-1/2 p-4 sm:pb-24 lg:pb-44"
                 data-aos="fade-right"
               >
                 <div className="flex relative">
                   <Image
                     alt="Link to portfolio example website created by nerdbrainz to display the kind of work that they are known for. You can have your very own unique custom website created by Nerdbrainz. Custom websites will attract my customers and drive sales. Nerdbrainz creative website design."
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/portfolio6.png"
+                    src="/static/images/portfolio7.png"
                     layout="fill"
                   />
 
@@ -77,7 +77,7 @@ const PortfolioPage = () => {
                   <Image
                     alt="Link to a Nerdbrainz portfolio example site. Nerdbrainz makes websites for small to medium sized business. Nerdbrainz is especially well known for E-commerce sites. They create full stack websites with creative design that is tailored for your business."
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/portfolio3.png"
+                    src="/static/images/portfolio5.png"
                     layout="fill"
                   />
                   <a target="_blank" href="house_plants">
@@ -103,7 +103,7 @@ const PortfolioPage = () => {
                   <Image
                     alt="Link to one of Nerdbrainz portfolio example websites. Nerdbrainz creates E-commerce solutions for companies like financial services, banking, insurance brokers. Nerdbrainz listens to what your company actually needs the most and creates solution focused website design. Nerdbrainz E-commerce solutions are designed by you for you."
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/portfolio2.png"
+                    src="/static/images/portfolio6.png"
                     layout="fill"
                   />
                   <a target="_blank" href="/nerdbrainz_coffee">
@@ -129,7 +129,7 @@ const PortfolioPage = () => {
                   <Image
                     alt="Picture of a Nerdbrainz website displaying information about E-commerce and especially Shopify. Nerdbrainz is in partnership with Shopify to bring their customers faster more reliable E-commerce solutions. Nerdbrainz understand the needs of a modern online retailer and create websites that will drive sales and reduce abandoned carts"
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    src="/static/images/portfolio5.png"
+                    src="/static/images/portfolio3.png"
                     layout="fill"
                   />
                   <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -165,7 +165,7 @@ const PortfolioPage = () => {
                     <p className="leading-relaxed">
                       Together we will create an interactive website that
                       perfectly highlights what is special about your
-                      organization and what you have to offer to the world.
+                      organization and what you have to offer.
                       <br />
                     </p>
                   </div>
@@ -201,7 +201,7 @@ const PortfolioPage = () => {
 
         {/* Start second row of cards */}
         <section className="text-custom-color-eleven body-font bg-custom-color-one">
-          <div className="container px-5 py-24 mx-auto pb-64">
+          <div className="container px-5 sm:py-12 lg:py-24 mx-auto lg:pb-64">
             <div className="flex flex-wrap -m-4">
               <div className="p-4 lg:w-1/3" data-aos="fade-down-right">
                 <div className="h-full bg-custom-color-nine bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
@@ -299,7 +299,7 @@ const PortfolioPage = () => {
             </div>
           </div>
           {/* Start of button Section */}
-          <div className="flex justify-center pb-28">
+          <div className="flex justify-center pt-12 pb-28">
             <a href="/contact" target="_blank">
               <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-custom-color-six rounded text-lg">
                 Say Hello
