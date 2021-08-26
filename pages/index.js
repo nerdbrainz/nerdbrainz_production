@@ -707,7 +707,7 @@ const Home = () => {
                         <Image
                           href="/"
                           alt="Read the testimonials of happy customers that have had custom websites built by Nerdbrainz. Find out more about the successful  work that Nerdbrainz have been doing to improve peoples websites and optimise their web presence and drive more sales and revenue."
-                          src="/static/images/testimonial_1.jpeg"
+                          src="/static/images/testimonials2.jpg"
                           className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                           width={48}
                           height={48}
@@ -745,7 +745,7 @@ const Home = () => {
                       <a className="inline-flex items-center">
                         <Image
                           alt="Read the testimonial of more happy customers that have their websites upgraded by Nerdbrainz. Nerdbrainz has improved speeds increased up times and reduced failure. Nerdbrainz build peoples dream websites. and improved their online companies"
-                          src="/static/images/testimonial_2.jpeg"
+                          src="/static/images/testimonials1.jpg"
                           className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                           width={48}
                           height={48}
@@ -781,7 +781,7 @@ const Home = () => {
                       <a className="inline-flex items-center">
                         <Image
                           alt="Read the testimonials of companies that have seen spikes in sales and revenue thanks to Nerdbrainz custom websites and branding. Find out how you can have a Nerdbrainz website custom made. Customers have had SEO improved and UX increased and have seen rapid changes to online sales"
-                          src="/static/images/testimonial_3.jpeg"
+                          src="/static/images/testimonials4.jpg"
                           className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                           width={48}
                           height={48}
@@ -819,7 +819,7 @@ const Home = () => {
                       <a className="inline-flex items-center">
                         <Image
                           alt="Read testimonial of people that have had their E-commerce site built by Nerdbrainz. With greater loading speeds and more intuitive UI and UX User Experience and User Interface. Professionally built Websites by NerdBrainz  "
-                          src="/static/images/testimonial_4.jpeg"
+                          src="/static/images/testimonials3.jpg"
                           className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                           width={48}
                           height={48}
