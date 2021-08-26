@@ -9,7 +9,7 @@ import Meta from "./components/partials/Meta";
 const Home = () => {
   useEffect(() => {
     Aos.init({
-      duration: 3000,
+      duration: 1500,
       disable: "mobile",
       disable: "tablet",
     });
@@ -120,7 +120,7 @@ const Home = () => {
         {/* Start of E-commerce/static/service provider */}
 
         <section className="text-custom-color-eleven body-font lg:pt-24  lg:pb-24">
-          <div className="container px-5 py-24 mx-auto" data-aos="zoom-in">
+          <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap -mx-4 -mb-10 text-center">
               <div className="sm:w-1/3 mb-10 px-4">
                 <div className="rounded-lg h-64 overflow-hidden hover">
@@ -197,7 +197,10 @@ const Home = () => {
                 </div>
               </div>
               <div className="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-1 md:px-1 lg:my-1 lg:px-1 xl:my-2 xl:px-2  md:pb-24">
-                <div className="container mx-auto flex flex-col px-5  justify-center items-center text-center">
+                <div
+                  className="container mx-auto flex flex-col px-5  justify-center items-center text-center"
+                  data-aos="fade-up"
+                >
                   <p className="text-base mt-2 text-custom-color-ten mb-8 w-full text-custom-color-ten  body-font w-2/3 sm:text-4xl text-3xl font-medium lg:pt-24 md:pb-12">
                     Find out more about what each of these types of website
                     actually do and what is right for you.
