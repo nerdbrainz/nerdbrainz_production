@@ -10,6 +10,7 @@ const Home = () => {
   useEffect(() => {
     Aos.init({
       duration: 3000,
+      disable: "mobile, tablet",
     });
   }, []);
 
