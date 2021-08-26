@@ -140,9 +140,10 @@ const PortfolioPage = () => {
                       Reaching more people
                     </h1>
                     <p className="leading-relaxed">
-                      We can create a website that will allow for you to offer
-                      your services online with automated client billing. For
-                      one off sales and recurring billing
+                      We can create a website that will allow to offer your
+                      services online with automated client billing one off
+                      sales and recurring billing. You will be able to take
+                      bookings and manage accounts all online.
                     </p>
                   </div>
                 </div>
@@ -165,8 +166,8 @@ const PortfolioPage = () => {
                     <p className="leading-relaxed">
                       Together we will create an interactive website that
                       perfectly highlights what is special about your
-                      organization and what you have to offer.
-                      <br />
+                      organization and what you have to offer the world. We will
+                      build a platform for you to showcase your vision.
                     </p>
                   </div>
                 </div>
@@ -187,9 +188,10 @@ const PortfolioPage = () => {
                       E-Commerce
                     </h1>
                     <p className="leading-relaxed">
-                      We are a specialist shopify websites builder. We can build
+                      We are specialist shopify websites builder. We can build
                       totally unique front end scalable sites with integrated
-                      shopify back ends
+                      shopify back ends. So that you are not dependant on
+                      limiting templates.
                     </p>
                   </div>
                 </div>
@@ -203,8 +205,11 @@ const PortfolioPage = () => {
         <section className="text-custom-color-eleven body-font bg-custom-color-one">
           <div className="container px-5 sm:py-12 lg:py-24 mx-auto lg:pb-64">
             <div className="flex flex-wrap -m-4">
-              <div className="p-4 lg:w-1/3" data-aos="fade-down-right">
-                <div className="h-full bg-custom-color-nine bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+              <div
+                className="p-4 sm:w-full lg:w-1/3"
+                data-aos="fade-down-right"
+              >
+                <div className="h-full bg-custom-color-nine bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative -pl-12 ">
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                     Why might I need a custom website
                   </h1>
@@ -238,7 +243,7 @@ const PortfolioPage = () => {
                   className="h-full bg-custom-color-nine bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative"
                   data-aos="fade-up"
                 >
-                  <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+                  <h1 className="title-font sm:text-2xl  text-xl font-medium text-gray-900 mb-3">
                     What is UX & UI Design
                   </h1>
                   <p className="leading-relaxed mb-3">

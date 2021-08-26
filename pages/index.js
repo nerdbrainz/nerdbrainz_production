@@ -230,7 +230,7 @@ const Home = () => {
             </div>
 
             <div className="lg:flex-grow md:w-1/2 md:py-4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-              <h1 className="title-font  sm:text-4xl  md:mr-8 text-3xl mb-4 font-medium text-custom-color-ten ">
+              <h1 className="title-font  sm:text-4xl   md:mr-8 text-3xl mb-4 font-medium text-custom-color-ten ">
                 Un-muddling UX and UI Design
               </h1>
               <p className="mb-8 leading-relaxed px-5 md:px-0 lg:px-0 text-custom-color-ten md:mr-12">
