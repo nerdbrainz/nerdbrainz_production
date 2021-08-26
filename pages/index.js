@@ -609,15 +609,15 @@ const Home = () => {
 
         {/*Start of Moving Background */}
         <div className="mt-24 ml-44">
-          <div className="absolute w-2/5 h-32 top-10 left-4 top-2/3 bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000 z-0"></div>
+          <div className="absolute sm:w-0 sm:h-0 w-2/5 h-32 top-10 left-4 top-2/3 bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000 z-0"></div>
 
-          <div className="absolute w-2/5 h-32 top-80 left-14 bg-custom-color-eight rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-6000"></div>
+          <div className="absolute sm:w-0 sm:h-0 w-2/5 h-32 top-80 left-14 bg-custom-color-eight rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-6000"></div>
 
-          <div className="absolute w-2/5 h-32 bottom-12 right-4 bg-custom-color-six rounded-full mix-blend-multiply filter  opacity-10 blur-2xl  animate-blob animation-delay-2000"></div>
+          <div className="absolute sm:w-0 sm:h-0 w-2/5 h-32 bottom-12 right-4 bg-custom-color-six rounded-full mix-blend-multiply filter  opacity-10 blur-2xl  animate-blob animation-delay-2000"></div>
 
-          <div className="absolute w-2/5 min-h-screen top-18 bg-custom-color-eight rounded-full mix-blend-multiply filter  opacity-10 animate-blob blur-3xl animation-delay-2000"></div>
+          <div className="absolute sm:w-0 sm:h-0 w-2/5 min-h-screen top-18 bg-custom-color-eight rounded-full mix-blend-multiply filter  opacity-10 animate-blob blur-3xl animation-delay-2000"></div>
 
-          <div className="absolute w-2/5 min-h-screen top-18 right-12 w-96 h-96  bg-custom-color-six rounded-full mix-blend-multiply filter  opacity-20 blur-2xl  animate-blob animation-delay-6000"></div>
+          <div className="absolute sm:w-0 sm:h-0 w-2/5 min-h-screen top-18 right-12 w-96 h-96  bg-custom-color-six rounded-full mix-blend-multiply filter  opacity-20 blur-2xl  animate-blob animation-delay-6000"></div>
         </div>
 
         {/* End of Moving Background  */}
@@ -649,7 +649,7 @@ const Home = () => {
                 data-aos="zoom-in"
               >
                 <div className="flex-grow">
-                  <h2 className="text-2xl text-custom-color-ten  text-center md:text-4xl lg:text-7xl title-font font-medium pb-24 md:pb-4 pt-12 mb-5 md:pt-24 ">
+                  <h2 className="text-2xl text-custom-color-ten  text-center md:text-4xl lg:text-7xl title-font font-medium pb-24 md:pb-4 pt-8 mb-5  ">
                     Business Development
                   </h2>
                   <p className="leading-relaxed text-base  text-custom-color-ten text-2xl">

@@ -9,6 +9,7 @@ const PortfolioPage = () => {
   useEffect(() => {
     Aos.init({
       duration: 2000,
+      disable: "mobile, tablet",
     });
   }, []);
   // 510x450
@@ -312,13 +313,13 @@ const PortfolioPage = () => {
         {/*Start of Moving Background */}
         <section>
           <div className="ml-44">
-            <div className="absolute w-3/5 h-32 top-1/3 left-1/4  bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-20  animate-blob animation-delay-2000 z-0 "></div>
+            <div className="absolute sm:w-0 sm:h-0 lg:w-3/5 h-32 top-1/3 left-1/4  bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-20  animate-blob animation-delay-2000 z-0 "></div>
 
-            <div className="absolute w-3/5 h-24 top-2/3 left-80  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-30  animate-blob animation-delay-6000"></div>
+            <div className="absolute sm:w-0 sm:h-0 lg:w-3/5 h-24 top-2/3 left-80  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-30  animate-blob animation-delay-6000"></div>
 
-            <div className="absolute w-3/5 h-24 top-1/2 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+            <div className="absolute sm:w-0 sm:h-0 lg:w-3/5 h-24 top-1/2 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
 
-            <div className="absolute w-3/5 h-24 bottom-1/4 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+            <div className="absolute sm:w-0 sm:h-0 lg:w-3/5 h-24 bottom-1/4 left-80  bg-custom-color-five rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
           </div>
 
           {/* End of Moving Background  */}
