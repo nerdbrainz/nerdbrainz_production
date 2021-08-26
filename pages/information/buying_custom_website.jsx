@@ -69,7 +69,7 @@ const BuyingCustomWebsite = () => {
         </div>
 
         {/* Start of button Section */}
-        <div className="flex justify-center pb-28">
+        <div className="flex justify-center pb-28 ">
           <a href="/portfolio_page" target="_blank">
             <button className="inline-flex text-white bg-custom-color-six border-0 py-2 px-6 focus:outline-none hover:custom-color-eleven rounded text-lg">
               Portfolio
@@ -84,7 +84,7 @@ const BuyingCustomWebsite = () => {
         {/* End of button Section */}
 
         {/*Start of Moving Background */}
-        <div className="ml-44">
+        <div className="ml-44 hidden md:block">
           <div className="absolute w-3/5 h-32 top-3/5 left-1/3   bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob animation-delay-2000 z-0 "></div>
 
           <div className="absolute w-2/5 h-24 top-1/2 left-4  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-6000"></div>

@@ -93,7 +93,7 @@ const about = () => {
         {/* End of button Section */}
 
         {/*Start of Moving Background */}
-        <div className="ml-44">
+        <div className="ml-44 hidden md:block">
           <div className="absolute w-2/5 h-32 top-1/3 left-4  bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000 z-0 "></div>
 
           <div className="absolute w-2/5 h-24 top-2/3 left-4  bg-custom-color-six rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-6000"></div>
