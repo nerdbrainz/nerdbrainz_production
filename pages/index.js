@@ -10,7 +10,8 @@ const Home = () => {
   useEffect(() => {
     Aos.init({
       duration: 3000,
-      disable: "mobile, tablet",
+      disable: "mobile",
+      disable: "tablet",
     });
   }, []);
 
@@ -24,7 +25,7 @@ const Home = () => {
         {/* START OF with SECTION call-to-action-button  */}
         <section className="text-custom-color-eleven body-font sm:pt-8 lg:pt-8 mx-12 z-50 ">
           <div
-            className="container mx-auto flex  py-8 lg:py-24 md:flex-row flex-col items-center  lg:-mr-8 z-50 md:pl-12"
+            className="container mx-auto flex  py-8 lg:pt-24 lg:pb-0 md:flex-row flex-col items-center  lg:-mr-8 z-50 md:pl-12"
             data-aos="zoom-in"
           >
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:py-44 md:text-left mb-16 md:mb-0 items-center text-center">
@@ -118,7 +119,7 @@ const Home = () => {
 
         {/* Start of E-commerce/static/service provider */}
 
-        <section className="text-custom-color-eleven body-font lg:pt-24  lg:pb-64">
+        <section className="text-custom-color-eleven body-font lg:pt-24  lg:pb-24">
           <div className="container px-5 py-24 mx-auto" data-aos="zoom-in">
             <div className="flex flex-wrap -mx-4 -mb-10 text-center">
               <div className="sm:w-1/3 mb-10 px-4">
@@ -195,7 +196,7 @@ const Home = () => {
                   </motion.div>
                 </div>
               </div>
-              <div className="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-1 md:px-1 lg:my-1 lg:px-1 xl:my-2 xl:px-2  md:pb-44">
+              <div className="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-1 md:px-1 lg:my-1 lg:px-1 xl:my-2 xl:px-2  md:pb-24">
                 <div className="container mx-auto flex flex-col px-5  justify-center items-center text-center">
                   <p className="text-base mt-2 text-custom-color-ten mb-8 w-full text-custom-color-ten  body-font w-2/3 sm:text-4xl text-3xl font-medium lg:pt-24 md:pb-12">
                     Find out more about what each of these types of website
@@ -210,11 +211,11 @@ const Home = () => {
         {/* End of E-commerce/static/service provider */}
 
         {/* Start of UI Examples */}
-        <section className="text-custom-color-eleven body-font">
-          <div
-            className="container mx-auto flex  sm:p20  md:py-44 pb-24 md:pt- lg:pt-32 md:flex-row flex-col items-center"
-            data-aos="fade-up"
-          >
+        <section
+          className="text-custom-color-eleven body-font"
+          data-aos="fade-up"
+        >
+          <div className="container mx-auto flex  sm:p20  md:py-44 pb-24 md:pt- lg:pt-32 md:flex-row flex-col items-center">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
               <Link href="/information/what_is_ux_ui_design">
                 <a className="cursor">
@@ -609,16 +610,16 @@ const Home = () => {
         {/* End of pricing Section */}
 
         {/*Start of Moving Background */}
-        <div className="mt-24 ml-44">
-          <div className="absolute sm:w-0 sm:h-0 w-2/5 h-32 top-10 left-4 top-2/3 bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000 z-0"></div>
+        <div className="mt-24 ml-44 hidden md:block">
+          <div className="absolute w-1/6 h-32 top-10 left-4 top-2/3 bg-custom-color-four rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000 z-0"></div>
 
-          <div className="absolute sm:w-0 sm:h-0 w-2/5 h-32 top-80 left-14 bg-custom-color-eight rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-6000"></div>
+          <div className="absolute w-1/6 h-32 top-80 left-14 bg-custom-color-eight rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-6000"></div>
 
-          <div className="absolute sm:w-0 sm:h-0 w-2/5 h-32 bottom-12 right-4 bg-custom-color-six rounded-full mix-blend-multiply filter  opacity-10 blur-2xl  animate-blob animation-delay-2000"></div>
+          <div className="absolute w-1/6 h-32 bottom-12 left-5/6 bg-custom-color-six rounded-full mix-blend-multiply filter  opacity-10 blur-2xl  animate-blob animation-delay-4000"></div>
 
-          <div className="absolute sm:w-0 sm:h-0 w-2/5 min-h-screen top-18 bg-custom-color-eight rounded-full mix-blend-multiply filter  opacity-10 animate-blob blur-3xl animation-delay-2000"></div>
+          <div className="absolute w-1/6 min-h-screen top-18 bg-custom-color-eight rounded-full mix-blend-multiply filter  opacity-10 animate-blob blur-3xl animation-delay-2000"></div>
 
-          <div className="absolute sm:w-0 sm:h-0 w-2/5 min-h-screen top-18 right-12 w-96 h-96  bg-custom-color-six rounded-full mix-blend-multiply filter  opacity-20 blur-2xl  animate-blob animation-delay-6000"></div>
+          <div className="absolute w-2/6 min-h-screen top-18 left-3/6 w-96 h-96  bg-custom-color-six rounded-full mix-blend-multiply filter  opacity-20 blur-2xl  animate-blob animation-delay-6000"></div>
         </div>
 
         {/* End of Moving Background  */}
@@ -631,7 +632,7 @@ const Home = () => {
         >
           <div
             className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap "
-            data-aos="fade-up-right"
+            data-aos="fade-up"
           >
             <div className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
               <Image
