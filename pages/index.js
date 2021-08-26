@@ -78,9 +78,9 @@ const Home = () => {
                   <Image
                     alt="Link to page that will help buy a custom website. How to know what website is best suited to you. Should you choose a static site with a main landing page or is an E-commerce site better for selling products and services and what apps can you integrate with my website."
                     id="about-img"
-                    className="object-cover object-center w-full pt-12 opacity-90  "
+                    className="object-cover object-center w-full pt-12 opacity-90 "
                     src="/static/images/35.png"
-                    width={748}
+                    width={810}
                     height={422}
                   />
                 </div>
