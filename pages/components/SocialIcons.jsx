@@ -30,7 +30,7 @@ const SocialIcons = () => {
       </li>
       <li>
         <a
-          href="https://twitter.com/BrainzNerd"
+          href="https://twitter.com/nerd_brainz"
           rel="noreferrer"
           target="_blank"
           className="text-blue-500 twitter-link"

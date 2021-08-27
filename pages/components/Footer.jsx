@@ -45,7 +45,7 @@ const Footer = () => {
               <a
                 rel="noreferrer"
                 className="ml-4 text-custom-color-five twitter-social-link"
-                href="https://twitter.com/BrainzNerd"
+                href="https://twitter.com/nerd_brainz"
                 target="_blank"
               >
                 <svg
