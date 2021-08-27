@@ -85,7 +85,7 @@ const Home = () => {
                   />
                 </div>
 
-                <div className="flex flex-col flex-wrap  lg:py-6 -mb-10 lg:w-1/2  lg:pl-20 lg:text-left text-center md:pb-24   ">
+                <div className="flex flex-col flex-wrap  lg:py-6 -mb-10 lg:w-1/2  lg:pl-20 lg:text-left text-center md:pb-24">
                   <div className="flex flex-col  lg:items-start items-center ">
                     <div className="flex-grow">
                       <h1 className="title-font  sm:text-4xl text-3xl mb-4 font-medium pt-12  text-custom-color-ten  ">
@@ -105,10 +105,10 @@ const Home = () => {
             </a>
           </Link>
 
-          <div class="p-2 w-full mt-12">
+          <div className="p-2 w-full mt-12">
             <Link href="/information/what_website_is_right_for_me">
               <a>
-                <button class="flex mx-auto text-white  border-0 py-2 px-8   rounded text-lg bg-custom-color-six focus:outline-none hover:bg-black-600">
+                <button className="flex mx-auto text-white  border-0 py-2 px-8   rounded text-lg bg-custom-color-six focus:outline-none hover:bg-black-600">
                   What Website
                 </button>
               </a>
@@ -668,10 +668,10 @@ const Home = () => {
               </div>
             </div>
             {/* <div className="flex pt-5"> */}
-            <div class="p-2 w-full mt-12">
+            <div className="p-2 w-full mt-12">
               <Link href="/">
                 <a>
-                  <button class="flex mx-auto text-white  border-0 py-2 px-8   rounded text-lg bg-custom-color-six focus:outline-none hover:bg-black-600">
+                  <button className="flex mx-auto text-white  border-0 py-2 px-8   rounded text-lg bg-custom-color-six focus:outline-none hover:bg-black-600">
                     Business Options
                   </button>
                 </a>

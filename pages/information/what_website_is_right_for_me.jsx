@@ -3,8 +3,8 @@ const WhatWebsiteIsRightForMe = () => {
   return (
     <>
       <Meta
-        title="Put a title here  | REPLACE THIS NO MORE THAN 55-60 words => Our information index is a collection of items that seeks to educate our customers about the many different facets of purchasing web design, web development and SEO services.<="
-        desc="No More than 150-160 words here"
+        title="What Website Is Right For Me  and why you should choose between a static, custom, or e-commerce site for you small or medium sized business."
+        desc="A static site is often a simple marketing or landing page. It can bring your business online so that the world can interact with it and allow you to market and advertise your products to the world. A static site can be built from a template or be made custom for your exact store. With custom sites costing a deal more it is often wise to choose a custom if you want your brand to stand out as unique. An e-commerce site will allow you to sell your products online and often has tools built in to manage inventories both in store and online and stay in touch with customers to expand your companies ability to market and promote items to its customers."
       />
       <section className=" body-font bg-custom-color-one min-h-full opacity-90">
         <div className="container mx-auto flex px-5 pt-24  md:flex-row flex-col items-center">

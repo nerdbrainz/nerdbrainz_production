@@ -24,7 +24,7 @@ const NerdbrainzCoffeeHome = () => {
               <div className="relative z-30 p-5 text-2xl text-white  bg-opacity-50 rounded-xl">
                 <div className="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
                   <img
-                    className="h-64 w-64"
+                    className="h-64 w-64 hidden md:block"
                     src="/static/images/nb_logo.png"
                     alt=""
                   />

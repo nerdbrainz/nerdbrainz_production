@@ -10,9 +10,9 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      {!urlPath.includes("nerdbrainz_coffee" && "house_plants") && <Navbar />}
+      {!urlPath.includes("nerdbrainz_coffee" || "house_plants") && <Navbar />}
       <Component {...pageProps} />
-      {!urlPath.includes("nerdbrainz_coffee" && "house_plants") && <Footer />}
+      {!urlPath.includes("nerdbrainz_coffee" || "house_plants") && <Footer />}
     </>
   );
 }
