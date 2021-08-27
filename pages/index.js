@@ -79,7 +79,7 @@ const Home = () => {
                     alt="Link to page that will help buy a custom website. How to know what website is best suited to you. Should you choose a static site with a main landing page or is an E-commerce site better for selling products and services and what apps can you integrate with my website."
                     id="about-img"
                     className="object-cover object-center w-full pt-12 opacity-90 "
-                    src="/static/images/35.png"
+                    src="/static/images/2-35.png"
                     width={810}
                     height={422}
                   />
@@ -139,7 +139,7 @@ const Home = () => {
                         <Image
                           alt="Link to information about buying a static website. How to know if a static website with a landing page is the correct option for you. What is the best way of building a website that can grow with my company. Is a custom built website better than a template website"
                           className="object-cover object-center h-full w-full"
-                          src="/static/images/38.png"
+                          src="/static/images/2-38.png"
                           width={392}
                           height={256}
                         />
@@ -163,7 +163,7 @@ const Home = () => {
                         <Image
                           alt="Link to information about selling services online. As a service provider what is the best way to sell my services and collect payments online. How to create online booking systems and who can I get to build these sites for me. Nerdbrainz can build you any website you need"
                           className="object-cover object-center h-full w-full"
-                          src="/static/images/36.png"
+                          src="/static/images/2-36.png"
                           width={392}
                           height={256}
                         />
@@ -187,7 +187,7 @@ const Home = () => {
                         <Image
                           alt="Link to find out about E-commerce websites.What is an E-commerce website and how do I choose the right one for me. Nerdbrainz can build you an E-commerce site. Where do I host the site. Who can arrange for my site to hosted and maintained. What is an E-commerce back-end."
                           className="object-cover object-center h-full w-full"
-                          src="/static/images/37.png"
+                          src="/static/images/2-37.png"
                           width={392}
                           height={256}
                         />
@@ -225,7 +225,7 @@ const Home = () => {
                   <Image
                     className="object-cover object-center rounded  opacity-90 -rotate-1"
                     alt="Link to information about what UI and UX actually means. Who do you ask about UI and UX and how can I improve my understanding of User Experience and User Interface. Nerdbrainz will improve your User Experience and design your User Interface"
-                    src="/static/images/42.png"
+                    src="/static/images/2-42.png"
                     width={515}
                     height={265}
                   />
@@ -642,7 +642,7 @@ const Home = () => {
                 alt="Link to how you can improve your business by improving your website. How can good branding build you more clients. Nerdbrainz can create you amazing logos and graphic designs. What technologies will generate more sales and more traffic. How to improver SEO and Search Engine Optimization "
                 id="about-img"
                 className="object-cover object-center w-full pt-20 opacity-90 -rotate-1"
-                src="/static/images/19.png"
+                src="/static/images/2-19.png"
                 width={756}
                 height={467}
               />
