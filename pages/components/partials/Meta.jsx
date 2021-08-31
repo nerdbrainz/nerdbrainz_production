@@ -48,7 +48,7 @@ const Meta = (props) => (
     <link
       rel="apple-touch-icon"
       type="image/png"
-      href="/static/images/apple-touch-cion.png"
+      href="/static/images/apple-touch-icon.png"
     />
     <link
       rel="stylesheet"
