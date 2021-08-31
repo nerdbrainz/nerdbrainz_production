@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { motion } from "framer-motion";
 import { useEffect } from "react";
 import Meta from "./components/partials/Meta";
 
@@ -50,7 +49,10 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="relative lg:max-w-5xl lg:w-full lg: md:w-1/2 w-5/6 z-50">
+            <div
+              className="relative lg:max-w-5xl lg:w-full lg: md:w-1/2 w-5/6 z-50"
+              data-aos="zoom-in"
+            >
               <Image
                 className="object-cover object-center rounded shadow-2xl hidden md:block"
                 alt="Link to honest information about choosing a website. what should you expect when buying a custom website professionally built with you and your company in mind and what website would best suit your needs. How should you choose a website and where do you find the most up to date information for free"
@@ -65,16 +67,17 @@ const Home = () => {
         {/* END OF with SECTION call-to-action-button  */}
 
         {/* start of what website Section */}
-
         <section
           id="about-feature"
           className="text-custom-color-eleven body-font bg-custom-color-Three lg:pb-44"
-          data-aos="fade-up"
         >
           <Link href="/information/what_website_is_right_for_me">
             <a>
               <div className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap ">
-                <div className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
+                <div
+                  className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden"
+                  data-aos="fade-right"
+                >
                   <Image
                     alt="Link to page that will help buy a custom website. How to know what website is best suited to you. Should you choose a static site with a main landing page or is an E-commerce site better for selling products and services and what apps can you integrate with my website."
                     id="about-img"
@@ -122,78 +125,49 @@ const Home = () => {
         <section className="text-custom-color-eleven body-font lg:pt-24  lg:pb-24">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap -mx-4 -mb-10 text-center">
-              <div className="sm:w-1/3 mb-10 px-4">
+              <div className="sm:w-1/3 mb-10 px-4" data-aos="fade-up">
                 <div className="rounded-lg h-64 overflow-hidden hover">
-                  <motion.div
-                    whileHover={{
-                      position: "relative",
-                      zIndex: 1,
-                      scale: 1.2,
-                      transition: {
-                        duration: 0.2,
-                      },
-                    }}
-                  >
-                    <Link href="/information/what_is_a_static_site">
-                      <a>
-                        <Image
-                          alt="Link to information about buying a static website. How to know if a static website with a landing page is the correct option for you. What is the best way of building a website that can grow with my company. Is a custom built website better than a template website"
-                          className="object-cover object-center h-full w-full"
-                          src="/static/images/2-38.png"
-                          width={392}
-                          height={256}
-                        />
-                      </a>
-                    </Link>
-                  </motion.div>
+                  <Link href="/information/what_is_a_static_site">
+                    <a>
+                      <Image
+                        alt="Link to information about buying a static website. How to know if a static website with a landing page is the correct option for you. What is the best way of building a website that can grow with my company. Is a custom built website better than a template website"
+                        className="object-cover object-center h-full w-full"
+                        src="/static/images/2-38.png"
+                        width={392}
+                        height={256}
+                      />
+                    </a>
+                  </Link>
                 </div>
               </div>
-              <div className="sm:w-1/3 mb-10 px-4">
+              <div className="sm:w-1/3 mb-10 px-4" data-aos="fade-down">
                 <div className="rounded-lg h-64 overflow-hidden">
-                  <motion.div
-                    whileHover={{
-                      scale: 1.2,
-                      transition: {
-                        duration: 0.2,
-                      },
-                    }}
-                  >
-                    <Link href="/information/information_six">
-                      <a>
-                        <Image
-                          alt="Link to information about selling services online. As a service provider what is the best way to sell my services and collect payments online. How to create online booking systems and who can I get to build these sites for me. Nerdbrainz can build you any website you need"
-                          className="object-cover object-center h-full w-full"
-                          src="/static/images/2-36.png"
-                          width={392}
-                          height={256}
-                        />
-                      </a>
-                    </Link>
-                  </motion.div>
+                  <Link href="/information/information_six">
+                    <a>
+                      <Image
+                        alt="Link to information about selling services online. As a service provider what is the best way to sell my services and collect payments online. How to create online booking systems and who can I get to build these sites for me. Nerdbrainz can build you any website you need"
+                        className="object-cover object-center h-full w-full"
+                        src="/static/images/2-36.png"
+                        width={392}
+                        height={256}
+                      />
+                    </a>
+                  </Link>
                 </div>
               </div>
-              <div className="sm:w-1/3 mb-10 px-4">
+              <div className="sm:w-1/3 mb-10 px-4" data-aos="fade-up">
                 <div className="rounded-lg h-64 overflow-hidden">
-                  <motion.div
-                    whileHover={{
-                      scale: 1.2,
-                      transition: {
-                        duration: 0.2,
-                      },
-                    }}
-                  >
-                    <Link href="/information/what_is_a_ecommerce_site">
-                      <a>
-                        <Image
-                          alt="Link to find out about E-commerce websites.What is an E-commerce website and how do I choose the right one for me. Nerdbrainz can build you an E-commerce site. Where do I host the site. Who can arrange for my site to hosted and maintained. What is an E-commerce back-end."
-                          className="object-cover object-center h-full w-full"
-                          src="/static/images/2-37.png"
-                          width={392}
-                          height={256}
-                        />
-                      </a>
-                    </Link>
-                  </motion.div>
+                  <Link href="/information/what_is_a_ecommerce_site">
+                    <a>
+                      <Image
+                        alt="Link to find out about E-commerce websites.What is an E-commerce website and how do I choose the right one for me. Nerdbrainz can build you an E-commerce site. Where do I host the site. Who can arrange for my site to hosted and maintained. What is an E-commerce back-end."
+                        className="object-cover object-center h-full w-full"
+                        src="/static/images/2-37.png"
+                        width={392}
+                        height={256}
+                      />
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 md:my-1 md:px-1 lg:my-1 lg:px-1 xl:my-2 xl:px-2  md:pb-24">
@@ -627,17 +601,17 @@ const Home = () => {
 
         {/* End of Moving Background  */}
 
-        {/* start of picture and copy Section */}
+        {/* start of picture and Business Development */}
 
         <section
           id="about-feature"
           className="text-custom-color-eleven body-font bg-custom-color-Three lg:pb-96"
         >
-          <div
-            className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap "
-            data-aos="fade-up"
-          >
-            <div className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden">
+          <div className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap ">
+            <div
+              className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden"
+              data-aos="fade-right"
+            >
               <Image
                 alt="Link to how you can improve your business by improving your website. How can good branding build you more clients. Nerdbrainz can create you amazing logos and graphic designs. What technologies will generate more sales and more traffic. How to improver SEO and Search Engine Optimization "
                 id="about-img"
@@ -654,7 +628,10 @@ const Home = () => {
                 data-aos="zoom-in"
               >
                 <div className="flex-grow">
-                  <h2 className="text-2xl text-custom-color-ten  text-center md:text-4xl lg:text-7xl title-font font-medium pb-24 md:pb-4 pt-8 mb-5  ">
+                  <h2
+                    className="text-2xl text-custom-color-ten  text-center md:text-4xl lg:text-7xl title-font font-medium pb-24 md:pb-4 pt-8 mb-5  "
+                    data-aos="fade-left"
+                  >
                     Business Development
                   </h2>
                   <p className="leading-relaxed text-base  text-custom-color-ten text-2xl">
