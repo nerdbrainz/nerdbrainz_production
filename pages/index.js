@@ -607,7 +607,7 @@ const Home = () => {
           id="about-feature"
           className="text-custom-color-eleven body-font bg-custom-color-Three lg:pb-96"
         >
-          <div className="container mt-24  px-5 lg:mt-44 lg:pt-24 mx-auto flex flex-wrap ">
+          <div className="container mt-24   lg:mt-44 lg:pt-24 mx-auto flex flex-wrap ">
             <div
               className="lg:w-1/2 w-full lg:mb-0 rounded-lg overflow-hidden"
               data-aos="fade-right"
@@ -629,7 +629,7 @@ const Home = () => {
               >
                 <div className="flex-grow">
                   <h2
-                    className="text-2xl text-custom-color-ten  text-center md:text-4xl lg:text-7xl title-font font-medium pb-24 md:pb-4 pt-8 mb-5  "
+                    className="text-2xl text-custom-color-ten  text-center md:text-4xl lg:text-7xl title-font font-medium pb-24 md:pb-4  mb-5  "
                     data-aos="fade-left"
                   >
                     Business Development
